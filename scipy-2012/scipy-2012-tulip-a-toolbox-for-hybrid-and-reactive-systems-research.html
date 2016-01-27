@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; TuLiP: a toolbox for hybrid and reactive systems research</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="General" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2012/scipy-2012-tulip-a-toolbox-for-hybrid-and-reactive-systems-research.html" rel="bookmark"
+         title="Permalink to TuLiP: a toolbox for hybrid and reactive systems research">TuLiP: a toolbox for hybrid and reactive systems research</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-08-31T16:35:00+00:00">
+      Fri 31 August 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/richard-m-murray.html">"Richard M. Murray"</a>
+          <a class="url fn" href="/author/scott-c-livingston.html">"Scott C. Livingston"</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://youtube.com/watch?v=AprLua-TIXs"><img alt="TuLiP: a toolbox for hybrid and reactive systems research" src="http://i2.ytimg.com/vi/AprLua-TIXs/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>We present a toolbox for the creation and study of controllers for hybrid
+systems. It contains modules for</p>
+<p>&gt;   * working with n-dimensional polytopes,</p>
+<p>&gt;   * refining continuous state space partitions to satisfy reachability
+properties,</p>
+<p>&gt;   * synthesizing, manipulating, and visualizing finite automata as winning
+strategies for a class of temporal logic-based games,</p>
+<p>&gt;   * simulating hybrid executions, and</p>
+<p>&gt;   * reading and writing problem solutions to an XML format.</p>
+<p>The toolbox is named TuLiP (for &quot;Temporal Logic Planning&quot;) and written almost
+entirely in Python, making critical use of NumPy, SciPy, CVXOPT, and
+matplotlib. While software for hybrid systems research is commonly written in
+Matlab scripts or otherwise requires the end-user to build from source for her
+particular platform, TuLiP requires neither. For a standard scientific Python
+environment, the only additional library may be CVXOPT. Code (re)use and
+experimentation are easy, and because of this, TuLiP has provided a natural
+basis for further research and development.</p>
+<p>Source code and documentation are currently available at [<a class="reference external" href="http://tulip">http://tulip</a>-
+control.sourceforge.net](<a class="reference external" href="http://tulip-control.sourceforge.net">http://tulip-control.sourceforge.net</a>)</p>
+<p>In this talk we will describe the problem domain addressed by TuLiP, various
+use cases, and lessons learning in the Python implementation. We shall include
+a full example making use of all components and show ways that individual
+modules are useful more broadly. Major items of the talk will be</p>
+<p>&gt;   1. related work, and the paucity of Python use in hybrid control research,
+which we argue is a matter of inheritance rather than best practices;</p>
+<p>&gt;   2. overview of the type of hybrid systems represented in TuLiP and
+relevance to other fields;</p>
+<p>&gt;   3. summary of the major steps going from problem statement to solution;</p>
+<p>&gt;   4. using only the &quot;polytope computations&quot; module;</p>
+<p>&gt;   5. using only &quot;discrete reactive synthesis&quot; related modules, with a brief
+description about temporal logic synthesis to provide background for those not
+working on computer aided verification;</p>
+<p>&gt;   6. snippets about recent research using and building on TuLiP; and</p>
+<p>&gt;   7. discussion about the Python-based implementation and lessons learned.</p>
+<p>For the last item, we will describe challenges faced while developing TuLiP,
+given its role of &quot;stitching together&quot; several external tools, e.g., Gephi
+&lt;[<a class="reference external" href="http://gephi.org/](http://gephi.org/)">http://gephi.org/](http://gephi.org/)</a>&gt; for large graph visualization and
+gr1c &lt;[<a class="reference external" href="http://scottman.net/2012/gr1c](http://scottman.net/2012/gr1c)">http://scottman.net/2012/gr1c](http://scottman.net/2012/gr1c)</a>&gt; for game
+solving. We will also touch on liberation from a Matlab-only tool (Mult-
+Parametric Toolbox; see
+[<a class="reference external" href="http://control.ee.ethz.ch/~mpt/](http://control.ee.ethz.ch/~mpt/">http://control.ee.ethz.ch/~mpt/](http://control.ee.ethz.ch/~mpt/</a>)), achieved
+by creating our own Python module for working with polytopes, using NumPy and
+CVXOPT for computations and matplotlib for visualization.</p>
+<p>A tool paper describing an earlier version of TuLiP was presented at the
+conference Hybrid Systems: Computation and Control (HSCC) in April 2011. There
+have since been substantial additions and improvements. Furthermore, a broader
+audience can be reached at SciPy 2012, with new opportunity to address designs
+issues likely shared by other scientific Python developers.</p>
+<p>Development of TuLiP has been supported in part by the AFOSR through the MURI
+program, the Multiscale Systems Center (MuSyC) and the Boeing Company.</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2012</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://youtube.com/watch?v=AprLua-TIXs">http://youtube.com/watch?v=AprLua-TIXs</a></li>
+<li>Tags: General</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

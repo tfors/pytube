@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Web Scraping in Python 101</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/europython-2014.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/europython-2014/europython-2014-web-scraping-in-python-101.html" rel="bookmark"
+         title="Permalink to Web Scraping in Python 101">Web Scraping in Python 101</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2014-07-31T00:46:00+00:00">
+      Thu 31 July 2014
+    </time>
+    <time class="modified" datetime="2014-08-02T11:49:00+00:00">
+      Sat 02 August 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/myasoob-khalid.html">"M.Yasoob Khalid"</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://www.youtube.com/watch?v=TeXRh17pB6c"><img alt="Web Scraping in Python 101" src="http://i.ytimg.com/vi/TeXRh17pB6c/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<div class="section" id="who-am-i">
+<h3>Who am I ?</h3>
+<ul class="simple">
+<li>a programmer</li>
+<li>a high school student</li>
+<li>a blogger</li>
+<li>Pythonista</li>
+<li>and tea lover</li>
+<li>Creator of freepythontips.wordpress.com</li>
+<li>I made soundcloud-dl.appspot.com</li>
+<li>I am a main contributor of youtube-dl.</li>
+<li>I teach programming at my school to my friends.</li>
+<li>It's my first programming  related conference.</li>
+<li>The life of a python programmer in Pakistan</li>
+</ul>
+</div>
+<div class="section" id="what-this-talk-is-about">
+<h3>What this talk is about ?</h3>
+<ul class="simple">
+<li>What is Web Scraping  and its usefulness</li>
+<li>Which libraries are available for the job</li>
+<li>Open Source vs proprietary alternatives</li>
+<li>Whaich library is best for which job</li>
+<li>When and when not to use Scrapy</li>
+</ul>
+</div>
+<div class="section" id="what-is-web-scraping">
+<h3>What is Web Scraping ?</h3>
+<p>Web scraping (web harvesting or web data extraction) is a
+computer software technique of extracting information from
+websites.  - Wikipedia</p>
+<p>###In simple words :
+It is a method to extract data from a website that does not
+have an API or we want to extract a LOT of data which we
+can not do through an API due to rate limiting.</p>
+<p>We can extract any data through web scraping which we can
+see while browsing the web.</p>
+</div>
+<div class="section" id="usage-of-web-scraping-in-real-life">
+<h3>Usage of web scraping in real life.</h3>
+<ul class="simple">
+<li>to extract product information</li>
+<li>to extract job postings and internships</li>
+<li>extract offers and discounts from deal-of-the-day websites</li>
+<li>Crawl forums and social websites</li>
+<li>Extract data to make a search engine</li>
+<li>Gathering weather data etc</li>
+</ul>
+</div>
+<div class="section" id="advantages-of-web-scraping-over-using-an-api">
+<h3>Advantages of Web scraping over using an API</h3>
+<ul class="simple">
+<li>Web Scraping is not rate limited</li>
+<li>Anonymously access the website and gather data</li>
+<li>Some websites do not have an API</li>
+<li>Some data is not accessible through an API etc</li>
+</ul>
+</div>
+<div class="section" id="which-libraries-are-available-for-the-job">
+<h3>Which libraries are available for the job ?</h3>
+<p>There are numerous libraries available for web scraping in
+python. Each library has its own weaknesses and plus points.</p>
+<p>Some of the most widely known libraries used for web scraping are:</p>
+<ul class="simple">
+<li>BeautifulSoup</li>
+<li>html5lib</li>
+<li>lxml</li>
+<li>re ( not really for web scraping, I will explain later )</li>
+<li>scrapy ( a complete framework )</li>
+</ul>
+</div>
+<div class="section" id="a-comparison-between-these-libraries">
+<h3>A comparison between these libraries</h3>
+<ul class="simple">
+<li>speed</li>
+<li>ease of use</li>
+<li>what do i prefer</li>
+<li>which library is best for which purpose</li>
+</ul>
+</div>
+<div class="section" id="proprietary-alternatives">
+<h3>Proprietary alternatives</h3>
+<ul class="simple">
+<li>a list of proprietary scrapers</li>
+<li>their price</li>
+<li>are they really useful for you ?</li>
+</ul>
+</div>
+<div class="section" id="working-of-proprietary-alternatives">
+<h3>Working of proprietary alternatives</h3>
+<ul class="simple">
+<li>how they work (render javascript)</li>
+<li>why they are not suitable for you</li>
+<li>how custom scrapers beat proprietary alternatives</li>
+</ul>
+</div>
+<div class="section" id="scrapy">
+<h3>Scrapy</h3>
+<ul class="simple">
+<li>what is it</li>
+<li>why is it useful</li>
+<li>asynchronous support</li>
+<li>an example scraper</li>
+</ul>
+</div>
+<div class="section" id="question">
+<h3>Question</h3>
+<ul class="simple">
+<li>Questions from the viewers</li>
+</ul>
+</div>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: EuroPython 2014</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://www.youtube.com/watch?v=TeXRh17pB6c">http://www.youtube.com/watch?v=TeXRh17pB6c</a></li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

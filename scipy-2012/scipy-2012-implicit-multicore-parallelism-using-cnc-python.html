@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Implicit Multicore Parallelism using CnC-Python</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="hpc" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2012/scipy-2012-implicit-multicore-parallelism-using-cnc-python.html" rel="bookmark"
+         title="Permalink to Implicit Multicore Parallelism using CnC-Python">Implicit Multicore Parallelism using CnC-Python</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-08-31T16:35:00+00:00">
+      Fri 31 August 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/shams-imam.html">Shams Imam</a>
+          <a class="url fn" href="/author/vivek-sarkar.html">Vivek Sarkar</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://youtube.com/watch?v=ZC2pm2b_Sks"><img alt="Implicit Multicore Parallelism using CnC-Python" src="http://i3.ytimg.com/vi/ZC2pm2b_Sks/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>We introduce CnC-Python (CP), an approach to implicit multicore parallelism
+for Python programmers based on a high-level macro data-flow programming model
+called Concurrent Collections (CnC). With the advent of the multi-core era, it
+is clear that improvements in application performance will primarily come from
+increased parallelism. Extracting parallelism from applications often involves
+the use of low-level primitives such as locks and threads. CP is implicitly
+parallel and enables programmers to achieve task, data and pipeline
+parallelism in a declarative fashion while only being required to describe the
+program as a coordination graph with serial Python code for individual nodes
+(steps). Thus, CP makes parallel programming accessible to a broad class of
+programmers who are not trained in parallel programming. The CP runtime
+requires that Python objects communicated between steps be picklable, but
+imposes no restriction on the Python idioms used within the serial code. Most
+data structures of interest to the SciPy community, including NumPy arrays,
+are included in the class of picklable data structures in Python.</p>
+<p>The CnC model is especially effective in exploiting parallelism in scientific
+applications in which the dependences can be represented as arbitrary directed
+acyclic graphs (&quot;dag parallelism&quot;). Such applications include, but are not
+limited to, tiled implementations of iterative linear algebra algorithms such
+as Cholesky decomposition, Gauss-Jordan elimination, Jacobi method, and
+Successive Over-Relaxation (SOR). Rather than using explicit threads and locks
+to exploit parallelism, the CnC-Python programmer decomposes their algorithm
+into individual computation steps and identifies data and control dependences
+among the steps to create such computation DAGs. Given the DAG (in the form of
+declarative constraints), it is the responsibility of the CP runtime to
+extract parallelism and performance from the application. By liberating the
+scientific programmer, who is not necessarily trained to write explicitly
+parallel programs, from the nuances of parallel programming, CP provides a
+high-productivity path for scientific programmers to achieve multi-core
+parallelism in Python.</p>
+<p>LINKS: CnC-Python: [<a class="reference external" href="http://cnc-python.rice.edu](http://cnc-python.rice.edu">http://cnc-python.rice.edu](http://cnc-python.rice.edu</a>)
+Concurrent Collections:
+[<a class="reference external" href="http://habanero.rice.edu/cnc](http://habanero.rice.edu/cnc">http://habanero.rice.edu/cnc](http://habanero.rice.edu/cnc</a>)</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2012</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://youtube.com/watch?v=ZC2pm2b_Sks">http://youtube.com/watch?v=ZC2pm2b_Sks</a></li>
+<li>Tags: hpc</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

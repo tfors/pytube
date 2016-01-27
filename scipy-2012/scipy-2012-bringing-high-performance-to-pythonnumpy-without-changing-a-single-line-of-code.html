@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Bringing High Performance to Python/Numpy Without Changing a Single Line of Code.</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="hpc" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2012/scipy-2012-bringing-high-performance-to-pythonnumpy-without-changing-a-single-line-of-code.html" rel="bookmark"
+         title="Permalink to Bringing High Performance to Python/Numpy Without Changing a Single Line of Code.">Bringing High Performance to Python/Numpy Without Changing a Single Line of Code.</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-08-31T16:35:00+00:00">
+      Fri 31 August 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/brian-vinter.html">Brian Vinter</a>
+          <a class="url fn" href="/author/mads-ruben-burgdorff-kristensen.html">Mads Ruben Burgdorff Kristensen</a>
+          <a class="url fn" href="/author/simon-andreas-frimann-lund.html">Simon Andreas Frimann Lund</a>
+          <a class="url fn" href="/author/troels-blum.html">Troels Blum</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="https://www.youtube.com/watch?v=HFxn3mSp9ww"><img alt="Bringing High Performance to Python/Numpy Without Changing a Single Line of Code." src="http://i1.ytimg.com/vi/HFxn3mSp9ww/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Recent years have provided a wealth of projects showing that using Python for
+scientific applications outperforms even popular choices such as Matlab. A
+major factor driving these successes is the efficient utilization of multi-
+cores, GPUs for general-purpose computation and scaling computations to
+clusters.</p>
+<p>However, often these advances sacrifice some of the high-productivity features
+of Python by introducing new language constructs, enforcing new language
+semantics and/or enforcing explicit data types. The result is that the user
+will have to rewrite existing Python applications to use the Python extension.</p>
+<p>In order to use GPGPUs in Python, a popular approach is to embed CUDA/OpenCL
+code kernels directly in the Python application. The programming productivity
+of this approach is better and more readable than C/C++ applications but it is
+still inferior to native Python code. Furthermore, the approach enforces
+hardware specific programming and thus requires intimate knowledge of the
+underlying hardware and the CUDA/OpenCL programming model.</p>
+<p>Copenhagen Vector Byte Code (cphVB) strives to provide a high-performance
+back-end for Numerical Python (NumPy) without reducing the high-productivity
+of Python/NumPy. Without any involvement of the user, cphVB will transform
+regular sequential Python/NumPy applications into high-performance
+applications. The cphVB runtime system is capable of utilizing a broad range
+of computing platforms efficiently, e.g. Multi-core CPUs, GPGPUs and clusters
+of such machines.</p>
+<p>cphVB consists of a bridge that translates NumPy array operations into cphVB
+vector operations. The bridge will send these vector operations to a Vector
+Engine that performs the actual execution of the operations. cphVB comes with
+a broad range of Vector Engines optimized to specific hardware architectures,
+such as multi-core CPUs, GPGPU and clusters of said architectures. Thus, cphVB
+provides a high-productivity, high-performance framework that support legacy
+NumPy applications without changing a single line of code.</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2012</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="https://www.youtube.com/watch?v=HFxn3mSp9ww">https://www.youtube.com/watch?v=HFxn3mSp9ww</a></li>
+<li>Tags: hpc</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

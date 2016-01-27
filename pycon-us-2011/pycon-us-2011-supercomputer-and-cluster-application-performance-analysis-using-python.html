@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Supercomputer and Cluster Application Performance Analysis using Python</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/pycon-us-2011.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="pycon" />
+    <meta name="tags" content="pycon2011" />
+    <meta name="tags" content="pylot" />
+    <meta name="tags" content="sandianationallaboratories" />
+    <meta name="tags" content="supercomputer" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/pycon-us-2011/pycon-us-2011-supercomputer-and-cluster-application-performance-analysis-using-python.html" rel="bookmark"
+         title="Permalink to Supercomputer and Cluster Application Performance Analysis using Python">Supercomputer and Cluster Application Performance Analysis using Python</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-02-23T04:20:00+00:00">
+      Thu 23 February 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/daniel-w-barnette.html">"Daniel W. Barnette"</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/450_supercomputer-and-cluster-application-performance-analysis-using-python.mp4"><img alt="Supercomputer and Cluster Application Performance Analysis using Python" src="http://a.images.blip.tv/Pycon-PyCon2011SupercomputerAndClusterApplicationPerformanceAna648.png" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>PyCon 2011: Supercomputer and Cluster Application Performance Analysis using
+Python</p>
+<p>Presented by Daniel W. Barnette, PhD</p>
+<p>Sandia National Labs analyzes high-performance computing environments to
+optimize application performance, analyze system architectures, and provide
+design guidance for future systems. We discuss 1) generating performance data
+across multiple systems using mini-applications, and 2) using our open source
+Python tools Pylot/Co-Pylot to store and analyze data using a MySQL database
+server.</p>
+<p>Abstract</p>
+<p>Sandia National Laboratories analyzes large-scale, state-of-the-art high
+performance computing environments for the Department of Energy (DOE),
+Department of Defense (DoD), and other government agencies. Execution
+efficiency is vital when dealing with datasets that require billions of
+elements or when running simulations that take millions of core-hours to
+complete.</p>
+<p>One approach to investigating execution efficiency is to instrument our large-
+scale applications and platforms to generate timings and other performance
+data. Although effective in mature computing environments, working directly
+with large-scale applications is cumbersome, time consuming, and even
+impossible in the early stages of computer system analysis and design.
+Furthermore, the software and data sets of these applications may be
+restricted, limiting our abilities to collaborate.</p>
+<p>In order to enhance our analysis capabilities far upstream from when large-
+scale applications can be used and when working with external collaborators,
+we have developed a collection of mini-applications that capture the essence
+of our much larger scientific codes, are readily applicable to both large and
+small systems, and whose run-time information can accurately reveal problems
+associated with execution efficiency.</p>
+<p>Generating the data is only half the problem, though. We need the ability to
+capture platform-relevant mini-app performance data at the convenience of the
+testers when and where they generate the data. We also need the ability to
+search through, filter, and visualize the resulting performance measurement
+datasets in detail to identify and understand trends and patterns.</p>
+<p>Sandia National Laboratories has developed a performance analysis suite
+primarily consisting of two tools written in Python, Pylot and Co-Pylot. Co-
+Pylot is a relatively simple interface that enables easy batch transfer of
+performance data to a remote MySQL database server for persistent storage.</p>
+<p>Once stored, the performance data is extracted, organized, filtered, and
+analyzed using Pylot, a more functionally complex interface. Pylot is used to
+present user-selected MySQL database fields in a variety of views including
+statistical data, bar and pie charts, Cartesian or log-log or semi-log plots,
+reference curves for comparisons, and Kiviat diagrams (also called radar
+charts) for multivariate datasets.</p>
+<p>A built-in storage buffer provides the ability to store, compare, and analyze
+data from multiple databases. This capability is critical for studying
+performance variations of a code running on a particular architecture,
+comparing application performance across architectures, or comparing multiple
+applications on one or more architectures. Values in up to four database
+fields at a time can be mathematically combined to generate a new temporary
+field to provide complete generality while accessing a database. Further,
+Pylot provides the ability to easily move MySQL databases and tables between
+computers, including the analyst’s laptop. This coherency of databases across
+multiple analysis platforms can be used, for example, to avoid network latency
+issues associated with accessing remote servers. It also serves as a
+distributed backup system.</p>
+<p>An outline of this presentation follows:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>Applications at Sandia National Laboratories (6 mins)</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>Simulation size and runtime of typical large Sandia applications</li>
+<li>Difficulties of using large-scale applications in early computer system design and analysis</li>
+<li>Mantevo mini-apps – small, self-contained programs that embody essential performance characteristics of key applications.</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="2">
+<li>Gathering data (4 mins)</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>What information Mantevo mini-apps provide</li>
+<li>Co-Pylot – getting your data into a remote database</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="3">
+<li>Supercomputer and Cluster application analysis (10 mins)</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>Pylot – demo of accessing and graphing MySQL data as a method for analyzing performance</li>
+<li>Diagnosing performance issues</li>
+<li>Comparing different systems and different runs</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="4">
+<li>Future Extensions of Pylot (5 mins)</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>Capturing compile-time and execution info</li>
+<li>Efforts to move parts of Pylot to the web</li>
+</ul>
+</blockquote>
+</blockquote>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: PyCon US 2011</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/450_supercomputer-and-cluster-application-performance-analysis-using-python.mp4">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/450_supercomputer-and-cluster-application-performance-analysis-using-python.mp4</a></li>
+<li>Tags: pycon, pycon2011, pylot, sandianationallaboratories, supercomputer</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

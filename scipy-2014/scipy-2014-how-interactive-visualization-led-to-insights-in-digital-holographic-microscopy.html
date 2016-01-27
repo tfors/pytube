@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; How Interactive Visualization Led to Insights in Digital Holographic Microscopy</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2014.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="holopy" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2014/scipy-2014-how-interactive-visualization-led-to-insights-in-digital-holographic-microscopy.html" rel="bookmark"
+         title="Permalink to How Interactive Visualization Led to Insights in Digital Holographic Microscopy">How Interactive Visualization Led to Insights in Digital Holographic Microscopy</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2014-07-15T22:45:00+00:00">
+      Tue 15 July 2014
+    </time>
+    <time class="modified" datetime="2014-07-15T23:04:00+00:00">
+      Tue 15 July 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/rebecca-perry.html">Rebecca Perry</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://www.youtube.com/watch?v=-IjIpX8QsAM"><img alt="How Interactive Visualization Led to Insights in Digital Holographic Microscopy" src="http://i1.ytimg.com/vi/-IjIpX8QsAM/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Digital holographic microscopy is a fast 3D imaging technique ideally suited to
+studies of micron-sized objects that diffuse through random walks via Brownian
+motion [[1]](<a class="reference external" href="http://dx.doi.org/10.1364/OE.15.018275">http://dx.doi.org/10.1364/OE.15.018275</a>).  Microspheres fit this
+category and are widely used in biological assays and as ideal test subjects
+for experiments in statistical mechanics.  Microspheres suspended in water move
+too quickly to monitor with confocal microscopy.  With digital holographic
+microscopy, 2D images encoding 3D volumes can be recorded at thousands of
+frames per second
+[[2]](<a class="reference external" href="http://www.nature.com/nmat/journal/v11/n2/abs/nmat3190.html">http://www.nature.com/nmat/journal/v11/n2/abs/nmat3190.html</a>).  The
+computationally challenging part of digital holographic microscopy is
+extracting the 3D information during post-processing.</p>
+<p>The open source
+[Holopy](<a class="reference external" href="https://launchpad.net/holopy">https://launchpad.net/holopy</a>) package which relies heavily on SciPy
+and NumPy is used to recover the 3D information via one of two techniques:
+reconstruction by numerical back-propagation of electromagnetic fields or
+modeling forward light scattering with Mie theory.  The parameter space
+describing the imaged volume is multidimensional.  Even for simple micron-sized
+spheres, a hologram depends on each sphere's radius and index of refraction in
+addition to its 3D position.  By supplementing Holopy with a [GPU-accelerated
+GUI](<a class="reference external" href="https://github.com/RebeccaWPerry/holography-gpu">https://github.com/RebeccaWPerry/holography-gpu</a>) using PyQt4, we enabled
+users to interactively adjust the system parameters and see a modeled digital
+hologram change in response.</p>
+<p>Simply adding the capability of
+interactively manipulating holograms in a GUI led us to notice unexpected
+discrepancies between the two modeling techniques and failures of both,
+suggesting further experiments.  We observed that the numerical light
+propagation technique only accurately characterizes the light within a cone
+stretching from the extent of the image back towards the object.  Neither model
+accurately characterizes the light upstream of the object toward the light
+source.  The GUI was a natural format to interact with the theory and gain
+insight because it showed us the models in an analogous format to how we see
+the data on the microscope.  Other scientific projects may benefit from tools
+that allow experimentalists to interact with theory in the same way they
+interact with their experiments.</p>
+<p>[1] Lee et.al., Optics Express, Vol.
+15, Issue 26, pp. 18275-18282 (2007) doi: 10.1364/OE.15.018275.</p>
+<p>[2] Kaz
+et.al., Nature Materials, Vol. 11, pp. 138u2013142 (2012)
+doi:10.1038/nmat3190.</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2014</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://www.youtube.com/watch?v=-IjIpX8QsAM">http://www.youtube.com/watch?v=-IjIpX8QsAM</a></li>
+<li>Tags: holopy</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

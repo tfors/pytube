@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; nmrglue: a Python Module for Working with NMR Data.</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="Computational Bioinformatics" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2012/scipy-2012-nmrglue-a-python-module-for-working-with-nmr-data.html" rel="bookmark"
+         title="Permalink to nmrglue: a Python Module for Working with NMR Data.">nmrglue: a Python Module for Working with NMR Data.</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-08-31T16:35:00+00:00">
+      Fri 31 August 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/jonathan-j-helmus.html">"Jonathan J. Helmus"</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="https://www.youtube.com/watch?v=pTxJFvLhHhI"><img alt="nmrglue: a Python Module for Working with NMR Data." src="http://i1.ytimg.com/vi/pTxJFvLhHhI/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Nuclear magnetic resonance (NMR) spectroscopy is a key analytical technique in
+the biomedical field, finding uses in drug discovery, metabolomics, and
+imaging as well as being the primary method for the determination of the
+structures of biological macromolecules in solution. In the course of a modern
+NMR structural or dynamic study of proteins and other biomolecules,
+experiments typically generate multiple gigabytes of 2D, 3D and even 4D data
+sets which must be collected, processed, analyzed, and visualized to extract
+useful information. The field has developed a number of software products to
+perform these functions, but few software suites exist that can perform all of
+the tasks which a typical scientist requires. For example, it is not uncommon
+for NMR data to be collected using software provided by the spectrometer
+vendor, processed and visualized using software from the NIH, and analyzed
+using software from a University, collaborator or developed in house.
+Complicating this process is the lack of a standard format for storing NMR
+data; each software program typically uses its own format for data storage.</p>
+<p>nmrglue is an open source Python module for working with NMR data which acts
+as the &quot;glue&quot; to tie together existing NMR programs, and can be used to
+rapidly develop new NMR processing, analysis or visualization methods. With
+nmrglue, spectral data from a number of common NMR file formats can be
+accessed as numpy arrays. This data can be sliced, rearranged or modified as
+needed and written out to any of the supported file formats for later use in
+existing NMR software programs. In this way, nmrglue can act as the &quot;glue&quot; to
+tie together NMR workflows which employ existing NMR software.</p>
+<p>In addition, nmrglue can be used in conjunction with other scientific python
+libraries to rapidly test, prototype, and develop new methods for processing,
+analyzing, and visualizing NMR data. The nmrglue package provides a number of
+common NMR processing functions, as well as implementation of scientific
+routines which may be of interest to other Python projects including peak
+pickers, multidimensional lineshape fitting routines, linear prediction
+functions, and a bounded least squares optimization. These functions together,
+with the ability to read, write and convert between a number of common file
+formats, allow developers to harness nmrglue for established routines while
+focusing on the novel portion of the new method being created. In addition,
+the numerical routines in numpy and scipy can be used to further speed this
+process. If these packages are used with the Ipython shell and matplotlib, a
+robust, interpreted environment for exploring and visualizing NMR data can be
+created using only open source software.</p>
+<p>nmrglue is distributed under the New BSD license. Documentation, tutorials,
+examples, and downloadable install files and source code are available at
+[<a class="reference external" href="http://code.google.com/p/nmrglue/](http://code.google.com/p/nmrglue/">http://code.google.com/p/nmrglue/](http://code.google.com/p/nmrglue/</a>).
+Despite a limited exposure in the scientific field, nmrglue is already used in
+a number of university research labs and portions of the package have been
+adapted for use in VeSPA, a software suite for magnetic resonance
+spectroscopy.</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2012</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="https://www.youtube.com/watch?v=pTxJFvLhHhI">https://www.youtube.com/watch?v=pTxJFvLhHhI</a></li>
+<li>Tags: Computational Bioinformatics</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

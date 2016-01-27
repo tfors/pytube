@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Douglas Bagnall - pyserf - a shortcut for writing C extensions in C</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/kiwi-pycon-2009.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="extensions" />
+    <meta name="tags" content="kiwipycon" />
+    <meta name="tags" content="kiwipycon2009" />
+    <meta name="tags" content="pyserf" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/kiwi-pycon-2009/kiwi-pycon-2009-douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.html" rel="bookmark"
+         title="Permalink to Douglas Bagnall - pyserf - a shortcut for writing C extensions in C">Douglas Bagnall - pyserf - a shortcut for writing C extensions in C</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-02-23T04:20:00+00:00">
+      Thu 23 February 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/douglas-bagnall.html">Douglas Bagnall</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/109_douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.flv"><img alt="Douglas Bagnall - pyserf - a shortcut for writing C extensions in C" src="http://a.images.blip.tv/Kiwipycon-DouglasBagnallPyserfAShortcutForWritingCExtensionsIn519-861.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>pyserf - a shortcut for writing C extensions in C</p>
+<p>Presented by Douglas Bagnall</p>
+<p>Abstract</p>
+<p>There are many clever ways of connecting Python and C code together, and
+pyserf is one of those. It is just a short script that parses a module outline
+and produces an idiomatic template for a C extension providing the same
+signatures, so all you need to do is write the bits that actually do stuff.</p>
+<p>Outline</p>
+<p>Pyserf is a tiny project that I wrote for my own use years ago and never
+released because it is so obvious that dozens of better versions must exist.
+The idea is simple -- you write an outline of a module like this:</p>
+<div class="highlight"><pre><span class="sd">&quot;&quot;&quot;module documentation&quot;&quot;&quot;</span>
+<span class="k">def</span> <span class="nf">top_level_function</span><span class="p">(</span><span class="n">int_a</span><span class="p">,</span> <span class="n">float_b</span><span class="p">):</span>
+   <span class="s2">&quot;function documentation&quot;</span>
+   <span class="k">return</span> <span class="n">float_c</span>
+
+<span class="k">class</span> <span class="nc">SomeModule</span><span class="p">:</span>
+   <span class="sd">&quot;&quot;&quot;class documentation&quot;&quot;&quot;</span>
+   <span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">int_ants</span> <span class="n">obj_zoo</span><span class="p">):</span>
+      <span class="sd">&quot;&quot;&quot;method documentation&quot;&quot;&quot;</span>
+      <span class="k">return</span> <span class="n">float_frogs</span>
+</pre></div>
+<p>and pyserf uses the parsing modules in the standard library to generate a C
+file that will compile to an extension providing the interface it describes,
+with the documentation appearing in the right place and the type conversions
+all properly handled. The generated file is not a hideous unreadable mess,
+rather it is within a few characters of best practise according to the
+official tutorial. Once you have this template, you abandon your outline and
+write the middles of each function in C. In describing what pyserf does, this
+talk will demonstrate what is required to write an extension in C by hand, and
+show you some ways of using the standard libraries parsing modules.</p>
+<p>[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: Kiwi PyCon 2009</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/109_douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.flv">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/109_douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.flv</a></li>
+<li>Tags: extensions, kiwipycon, kiwipycon2009, pyserf</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

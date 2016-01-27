@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Best Practices for Impossible Deadlines</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/pycon-us-2011.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="beeswithmachineguns" />
+    <meta name="tags" content="bestpractices" />
+    <meta name="tags" content="casestudy" />
+    <meta name="tags" content="pycon" />
+    <meta name="tags" content="pycon2011" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/pycon-us-2011/pycon-us-2011-best-practices-for-impossible-deadlines.html" rel="bookmark"
+         title="Permalink to Best Practices for Impossible Deadlines">Best Practices for Impossible Deadlines</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-02-23T04:20:00+00:00">
+      Thu 23 February 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/christopher-groskopf.html">Christopher Groskopf</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4"><img alt="Best Practices for Impossible Deadlines" src="http://a.images.blip.tv/Pycon-PyCon2011BestPracticesForImpossibleDeadlines540-981.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Best Practices for Impossible Deadlines</p>
+<p>Presented by Christopher Groskopf</p>
+<p>At the Chicago Tribune we develop, test, and deploy production web
+applications on schedules that range from two hours to two months. This talk
+will discuss the tools and techniques that allow us to make our deadlines,
+including automated deployments, frameworks, just-in-time testing, and more.
+Attention will be paid to [<a class="reference external" href="http://github.com/newsapps/beeswithmachineguns](htt">http://github.com/newsapps/beeswithmachineguns](htt</a>
+p://github.com/newsapps/beeswithmachineguns) and the problems they solve.</p>
+<p>Abstract</p>
+<p>On my first day at the Chicago Tribune I was given a CSV of data about
+defoliant spraying in Vietnam and told to build this: Agent Orange. What
+followed was one of the most stressful and difficult weeks of my life, during
+which I learned an incredible amount about web development. I had to stop
+thinking about databases and start thinking about serialized JSON structures
+stashed on S3; stop thinking about building tools and start thinking about
+mashing up tech that was never designed to be married (in this case Simile
+Timeline and Google Maps); stop thinking about idealistic development
+practices and start thinking about getting a working product out the door. In
+short: I had to rewire my brain for news.</p>
+<p>This talk will go in-depth on deadline-oriented strategies that I've learned
+in a year of building news applications. Some of these revolve around specific
+technologies, like fabric for single-keystroke deployments or Varnish for
+caching, but most will be matters of practice, like what to test when you have
+no time for testing or how to avoid (yes, avoid!) database migrations.</p>
+<p>They say Django is &quot;the web framework for perfectionists with deadlines.&quot; This
+is their Art of War.</p>
+<p>Talk outline:</p>
+<blockquote>
+<ul class="simple">
+<li>An anecdote: Agent Orange</li>
+<li>We can't have nice things (or best practices)</li>
+<li>Low-hanging fruit: staging environment, git branches, PEP8.</li>
+<li>Only build it once: Iterations, interviews and stakeholders</li>
+<li>Salvage, share and steal [code]</li>
+<li>Keeping track: Be a ticketing warrior</li>
+<li>Tools improve faster than you do: iterate your stack</li>
+<li>Single-keystroke deployment (fabric)</li>
+<li>Migrations are hard: Building read-only apps</li>
+<li>Don't serve that: Using S3 for hosting</li>
+<li>Caching &gt; optimization (varnish)</li>
+<li>Know your load limits (beeswithmachineguns)</li>
+<li>Configuration-as-application: application frameworks (maps, tables)</li>
+<li>Pair programming &gt; functional testing &gt; unit testing</li>
+<li>except UseWordpress, e: print &quot;No, really&quot;</li>
+</ul>
+</blockquote>
+<p>Sites that will be used as examples:</p>
+<blockquote>
+<ul class="simple">
+<li>Agent Orange</li>
+<li>Burr Oak Memorial</li>
+<li>Census 2010: Cook county participation rates map</li>
+<li>Area judges and supervision rates of speeders table</li>
+<li>RedEye Homicide Tracker</li>
+<li>Chicago Tribune Elections Center</li>
+<li>2010 Illinois School Report Cards</li>
+<li>TribLocal</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: PyCon US 2011</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4</a></li>
+<li>Tags: beeswithmachineguns, bestpractices, casestudy, pycon, pycon2011</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>pytube</title><link href="/" rel="alternate"></link><link href="/feeds/chipy.atom.xml" rel="self"></link><id>/</id><updated>2015-03-14T11:10:00+00:00</updated><entry><title>From Code to Coffee Table with Blender and Sly</title><link href="/chipy/chipy-from-code-to-coffee-table-with-blender-and-sly.html" rel="alternate"></link><updated>2015-03-14T10:17:00+00:00</updated><author><name>Matt Meshulam</name></author><id>tag:,2015-03-11:chipy/chipy-from-code-to-coffee-table-with-blender-and-sly.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/ib2n2msvVZk"&gt;&lt;img alt="From Code to Coffee Table with Blender and Sly" src="http://i.ytimg.com/vi/ib2n2msvVZk/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;I've been developing a Python library for turning 3D models into CNC-machinable parts. I will demonstrate the basics of the library and how I used it to build a wood coffee table.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/ib2n2msvVZk"&gt;http://youtu.be/ib2n2msvVZk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>A Talk on Giving a Pythonic Talk</title><link href="/chipy/chipy-a-talk-on-giving-a-pythonic-talk.html" rel="alternate"></link><updated>2015-03-14T11:10:00+00:00</updated><author><name>Catherine Vongsathorn</name></author><id>tag:,2015-03-09:chipy/chipy-a-talk-on-giving-a-pythonic-talk.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/xK7uxQkoIeM"&gt;&lt;img alt="A Talk on Giving a Pythonic Talk" src="http://i.ytimg.com/vi/xK7uxQkoIeM/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Xan Vongsathorn and Catherine Vongsathorn will be giving a talk about talks. It turns out that many of python's core principles apply very well to presentations -- or for that matter, communication more generally -- which may be why we like python so much. Xan and Catherine want to get people excited not only about giving talks but also about using them to &lt;em&gt;actually communicate&lt;/em&gt;. You don’t have to be an expert, nor do you need natural talent, to give a good talk; this metatalk will discuss guiding principles that set effective presentations apart and can be applied to any technical talk.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/xK7uxQkoIeM"&gt;http://youtu.be/xK7uxQkoIeM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Django+Elasticsearch+Haystack to Search PDFs and Such</title><link href="/chipy/chipy-djangoelasticsearchhaystack-to-search-pdfs-and-such.html" rel="alternate"></link><updated>2015-02-13T18:00:00+00:00</updated><author><name>Joe Jasinski</name></author><id>tag:,2015-02-10:chipy/chipy-djangoelasticsearchhaystack-to-search-pdfs-and-such.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/xr1b39XMtBQ"&gt;&lt;img alt="Django+Elasticsearch+Haystack to Search PDFs and Such" src="http://i.ytimg.com/vi/xr1b39XMtBQ/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Have you ever wanted to search the contents of uploaded PDFs, Docs, and other document formats on your website?  Django Haystack (with the Elasticsearch search backend) is a great way to add search to your site, but it does not support full document indexing out of the box.  I'd like to share a solution that I cobbled together to allow this combination of tools the ability to search document contents.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/xr1b39XMtBQ"&gt;http://youtu.be/xr1b39XMtBQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>REST on Django</title><link href="/chipy/chipy-rest-on-django.html" rel="alternate"></link><updated>2015-02-17T20:58:00+00:00</updated><author><name>Adam Bain</name></author><id>tag:,2015-02-10:chipy/chipy-rest-on-django.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/UVC62eGQTOQ"&gt;&lt;img alt="REST on Django" src="http://i.ytimg.com/vi/UVC62eGQTOQ/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;A quick overview through the components that make up Django REST Framework with a dive into a sample project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/UVC62eGQTOQ"&gt;http://youtu.be/UVC62eGQTOQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Python For Humans</title><link href="/chipy/chipy-python-for-humans.html" rel="alternate"></link><updated>2014-12-13T10:47:00+00:00</updated><author><name>Kenneth Reitz</name></author><id>tag:,2014-12-12:chipy/chipy-python-for-humans.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://www.youtube.com/watch?v=bpZS9ehw98k"&gt;&lt;img alt="Python For Humans" src="http://i.ytimg.com/vi/bpZS9ehw98k/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Python’s ecosystem is held up to a high standard, but it falls short in a few key areas. A handful of crucial APIs are an absolute pain to work with. We’ll go over where these APIs went wrong and learn about strong and elegant API design. The high barriers to entry in Python will be discussed. Potential solutions will be proposed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://www.youtube.com/watch?v=bpZS9ehw98k"&gt;http://www.youtube.com/watch?v=bpZS9ehw98k&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>A lightning look at O'Reilly's Python books</title><link href="/chipy/chipy-a-lightning-look-at-oreillys-python-books.html" rel="alternate"></link><updated>2014-12-16T12:18:00+00:00</updated><author><name>Tanya Schlusser</name></author><id>tag:,2014-12-10:chipy/chipy-a-lightning-look-at-oreillys-python-books.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/XKXk8EFnzdU"&gt;&lt;img alt="A lightning look at O'Reilly's Python books" src="http://i.ytimg.com/vi/XKXk8EFnzdU/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Wouldn't it be awesome if ChiPy wrote its own book? We'd be able to get BEvERages for weeks, maybe months on the royalty! If so, we'd need to see what's already out there.&lt;/p&gt;
+&lt;p&gt;This lightning talk takes a look at O'Reilly's Python books using requests and BeautifulSoup, with a little of scipy's hierarchical clustering on the book descriptions. It is presented in an iPython notebook.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/XKXk8EFnzdU"&gt;http://youtu.be/XKXk8EFnzdU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>November 2014 Chipy Talks</title><link href="/chipy/chipy-november-2014-chipy-talks.html" rel="alternate"></link><updated>2014-12-07T11:07:00+00:00</updated><author><name>Asma Mehjabeen</name></author><id>tag:,2014-12-07:chipy/chipy-november-2014-chipy-talks.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=EEwufSsx4O8"&gt;&lt;img alt="November 2014 Chipy Talks" src="/default_thumbnail_url.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;### Hidden Markov Models to improve activity recognition in patients with spinal cord injury
+By: Asma Mehjabeen&lt;/p&gt;
+&lt;p&gt;Fitness tracking is great for calories and steps, but similar sensors are capable of reporting much more about how we move throughout the day. This is especially important in assessing the quality of movement for those with limited mobility. Doctors often want to know more detail about patient behavior after therapy to select and adjust the appropriate intervention. Using machine learning on wearable accelerometer signals, we estimate the activities patients with incomplete spinal cord injury are performing. By combining windowed classifier estimates over time using a hidden markov model, we show how error rates can be significantly decreased, which brings more detailed assessments of patient activity closer to a clinical reality.&lt;/p&gt;
+&lt;p&gt;### Innate learning: training the brain before the eyes open
+By: Isaac Adorno&lt;/p&gt;
+&lt;p&gt;Amorphous, blob-like patterns of neural activity form and move over the eye during visual development in animals. Why do such patterns exist? We show that these patterns are this way to better prepare the visual system for natural vision. Essentially, these are movies played in the eyes to refine the visual system before the eyes even open. We use python to model the developing visual system, produce an efficient code based on those patterns, and show how that code matches what is seen biologically. In this way, we show that during your early development you are learning from innately generated patterns - a unique twist in the debates of nature and nurture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=EEwufSsx4O8"&gt;https://www.youtube.com/watch?v=EEwufSsx4O8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Lidless: A Video Analyzer and IRC Bot</title><link href="/chipy/chipy-lidless-a-video-analyzer-and-irc-bot.html" rel="alternate"></link><updated>2014-09-07T20:45:00+00:00</updated><author><name>Eric Stein</name></author><id>tag:,2014-09-07:chipy/chipy-lidless-a-video-analyzer-and-irc-bot.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=GiUPv2Q01lw"&gt;&lt;img alt="Lidless: A Video Analyzer and IRC Bot" src="/default_thumbnail_url.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;At Pumping Station: One (Chicago's Hackerspace) people often send messages to the mailing list or ask on IRC if anyone is at the space or plans to be later. There's an opportunity there to solve problems automatically rather than through human input. Member Eric Stein designed a Python / OpenCV based application (lidless) to monitor four video cameras in the space and offer a REST API, a web front end with historical graphs, and an IRC bot in the IRC channel to relay information about how busy the space is.&lt;/p&gt;
+&lt;p&gt;This talk is a short demo of the application accompanied by motivations and high level archtechture breakdown. Following the demo/archtechture I'll dive into the parts of the code that people are most interested in hearing about with Q&amp;amp;A.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=GiUPv2Q01lw"&gt;https://www.youtube.com/watch?v=GiUPv2Q01lw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: image analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="image analysis"></category></entry><entry><title>Pingo means "pin, go!"</title><link href="/chipy/chipy-pingo-means-pin-go.html" rel="alternate"></link><updated>2014-09-29T11:57:00+00:00</updated><author><name>Luciano Ramalho</name></author><id>tag:,2014-07-08:chipy/chipy-pingo-means-pin-go.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/PNkml72Wuck"&gt;&lt;img alt="Pingo means &amp;quot;pin, go!&amp;quot;" src="http://i.ytimg.com/vi/PNkml72Wuck/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/PNkml72Wuck"&gt;http://youtu.be/PNkml72Wuck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Garbage Collection w/ Ref. Cycles</title><link href="/chipy/chipy-garbage-collection-w-ref-cycles.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Aaron Brady</name></author><id>tag:,2014-01-08:chipy/chipy-garbage-collection-w-ref-cycles.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=VCeENPxyZJw"&gt;&lt;img alt="Garbage Collection w/ Ref. Cycles" src="http://i1.ytimg.com/vi/VCeENPxyZJw/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=VCeENPxyZJw"&gt;https://www.youtube.com/watch?v=VCeENPxyZJw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Lexical Graphs with Natural Language Processing using NLTK</title><link href="/chipy/chipy-lexical-graphs-with-natural-language-processing-using-nltk.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Brian Ray</name></author><id>tag:,2014-01-08:chipy/chipy-lexical-graphs-with-natural-language-processing-using-nltk.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=cj-DTFmIUjE"&gt;&lt;img alt="Lexical Graphs with Natural Language Processing using NLTK" src="http://i1.ytimg.com/vi/cj-DTFmIUjE/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=cj-DTFmIUjE"&gt;https://www.youtube.com/watch?v=cj-DTFmIUjE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>There were 986 roadway fatalities in Illinois in 2013. Where's the data?</title><link href="/chipy/chipy-there-were-986-roadway-fatalities-in-illinois-in-2013-wheres-the-data.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Nick Bennett</name></author><id>tag:,2014-01-08:chipy/chipy-there-were-986-roadway-fatalities-in-illinois-in-2013-wheres-the-data.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=MN1y5lvSHQ8"&gt;&lt;img alt="There were 986 roadway fatalities in Illinois in 2013. Where's the data?" src="http://i1.ytimg.com/vi/MN1y5lvSHQ8/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=MN1y5lvSHQ8"&gt;https://www.youtube.com/watch?v=MN1y5lvSHQ8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Storm (with python (and a side of clojure))</title><link href="/chipy/chipy-storm-with-python-and-a-side-of-clojure.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Philip Doctor</name></author><id>tag:,2013-12-11:chipy/chipy-storm-with-python-and-a-side-of-clojure.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=ja-iZG610o8"&gt;&lt;img alt="Storm (with python (and a side of clojure))" src="http://i1.ytimg.com/vi/ja-iZG610o8/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=ja-iZG610o8"&gt;https://www.youtube.com/watch?v=ja-iZG610o8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>The Chicago Process: How Braintree Develops Software</title><link href="/chipy/chipy-the-chicago-process-how-braintree-develops-software.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Adam Forsyth</name></author><id>tag:,2013-12-11:chipy/chipy-the-chicago-process-how-braintree-develops-software.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=eBTRRVr3AIQ"&gt;&lt;img alt="The Chicago Process: How Braintree Develops Software" src="http://i1.ytimg.com/vi/eBTRRVr3AIQ/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=eBTRRVr3AIQ"&gt;https://www.youtube.com/watch?v=eBTRRVr3AIQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>A Visual Guide To Pandas</title><link href="/chipy/chipy-a-visual-guide-to-pandas.html" rel="alternate"></link><updated>2014-07-26T12:30:00+00:00</updated><author><name>Jason Wirth</name></author><id>tag:,2013-12-11:chipy/chipy-a-visual-guide-to-pandas.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://youtu.be/9d5-Ti6onew"&gt;&lt;img alt="A Visual Guide To Pandas" src="http://i1.ytimg.com/vi/9d5-Ti6onew/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://youtu.be/9d5-Ti6onew"&gt;http://youtu.be/9d5-Ti6onew&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>PyData Recap Lightning Talk</title><link href="/chipy/chipy-pydata-recap-lightning-talk.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Jason Wirth</name></author><id>tag:,2013-11-18:chipy/chipy-pydata-recap-lightning-talk.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=I7B2BtgjfgY"&gt;&lt;img alt="PyData Recap Lightning Talk" src="http://i1.ytimg.com/vi/I7B2BtgjfgY/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=I7B2BtgjfgY"&gt;https://www.youtube.com/watch?v=I7B2BtgjfgY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>What happened at #aaronswhack?</title><link href="/chipy/chipy-what-happened-at-aaronswhack.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Sheila Miguez</name></author><id>tag:,2013-11-18:chipy/chipy-what-happened-at-aaronswhack.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=UJdPBKCPDnw"&gt;&lt;img alt="What happened at #aaronswhack?" src="http://i1.ytimg.com/vi/UJdPBKCPDnw/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=UJdPBKCPDnw"&gt;https://www.youtube.com/watch?v=UJdPBKCPDnw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>CivicLab and Between the Bars</title><link href="/chipy/chipy-civiclab-and-between-the-bars.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Benjamin Sugar</name></author><id>tag:,2013-11-18:chipy/chipy-civiclab-and-between-the-bars.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=-PbcJjr_SFE"&gt;&lt;img alt="CivicLab and Between the Bars" src="http://i1.ytimg.com/vi/-PbcJjr_SFE/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=-PbcJjr_SFE"&gt;https://www.youtube.com/watch?v=-PbcJjr_SFE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>How Open Source Hardware Will Change the World</title><link href="/chipy/chipy-how-open-source-hardware-will-change-the-world.html" rel="alternate"></link><updated>2014-07-25T11:48:00+00:00</updated><author><name>Paul Ebreo</name></author><id>tag:,2013-11-18:chipy/chipy-how-open-source-hardware-will-change-the-world.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=RLRDnC9SQWk"&gt;&lt;img alt="How Open Source Hardware Will Change the World" src="http://i1.ytimg.com/vi/RLRDnC9SQWk/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=RLRDnC9SQWk"&gt;https://www.youtube.com/watch?v=RLRDnC9SQWk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Measure It</title><link href="/chipy/chipy-measure-it.html" rel="alternate"></link><updated>2014-07-26T12:32:00+00:00</updated><author><name>Peter Fein</name></author><id>tag:,2013-11-18:chipy/chipy-measure-it.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=A_C4Z4RDDgI"&gt;&lt;img alt="Measure It" src="http://i1.ytimg.com/vi/A_C4Z4RDDgI/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=A_C4Z4RDDgI"&gt;https://www.youtube.com/watch?v=A_C4Z4RDDgI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Monoids in Python</title><link href="/chipy/chipy-monoids-in-python.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Philip Doctor</name></author><id>tag:,2013-11-15:chipy/chipy-monoids-in-python.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=50qhv8C3s9I"&gt;&lt;img alt="Monoids in Python" src="http://i1.ytimg.com/vi/50qhv8C3s9I/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=50qhv8C3s9I"&gt;https://www.youtube.com/watch?v=50qhv8C3s9I&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Post djangocon: An overview of edX</title><link href="/chipy/chipy-post-djangocon-an-overview-of-edx.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>yarko</name></author><id>tag:,2013-09-09:chipy/chipy-post-djangocon-an-overview-of-edx.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=f1FoYwe_DT4"&gt;&lt;img alt="Post djangocon: An overview of edX" src="http://i1.ytimg.com/vi/f1FoYwe_DT4/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=f1FoYwe_DT4"&gt;https://www.youtube.com/watch?v=f1FoYwe_DT4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Set it, and forget it! Auto Scale on Rackspace</title><link href="/chipy/chipy-set-it-and-forget-it-auto-scale-on-rackspace.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Brian Curtin</name></author><id>tag:,2013-09-09:chipy/chipy-set-it-and-forget-it-auto-scale-on-rackspace.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=-0P5EvYI0Rk"&gt;&lt;img alt="Set it, and forget it! Auto Scale on Rackspace" src="http://i1.ytimg.com/vi/-0P5EvYI0Rk/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=-0P5EvYI0Rk"&gt;https://www.youtube.com/watch?v=-0P5EvYI0Rk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>What's Love Got to do with It? / Love: for techies</title><link href="/chipy/chipy-whats-love-got-to-do-with-it-love-for-techies.html" rel="alternate"></link><updated>2014-07-26T12:34:00+00:00</updated><author><name>yarko</name></author><id>tag:,2013-09-09:chipy/chipy-whats-love-got-to-do-with-it-love-for-techies.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=Qu6MVLnt2D8"&gt;&lt;img alt="What's Love Got to do with It? / Love: for techies" src="http://i1.ytimg.com/vi/Qu6MVLnt2D8/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=Qu6MVLnt2D8"&gt;https://www.youtube.com/watch?v=Qu6MVLnt2D8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Asynchronous I/O in Python 3</title><link href="/chipy/chipy-asynchronous-io-in-python-3.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Feihong Hsu</name></author><id>tag:,2013-07-07:chipy/chipy-asynchronous-io-in-python-3.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=jMgRUI7V_mk"&gt;&lt;img alt="Asynchronous I/O in Python 3" src="http://i1.ytimg.com/vi/jMgRUI7V_mk/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=jMgRUI7V_mk"&gt;https://www.youtube.com/watch?v=jMgRUI7V_mk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: asynchronous, tulip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="asynchronous"></category><category term="tulip"></category></entry><entry><title>ipython / notebook demo</title><link href="/chipy/chipy-ipython-notebook-demo.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Jason Wirth</name></author><id>tag:,2013-07-07:chipy/chipy-ipython-notebook-demo.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=upw-AIzWcfQ"&gt;&lt;img alt="ipython / notebook demo" src="http://i1.ytimg.com/vi/upw-AIzWcfQ/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=upw-AIzWcfQ"&gt;https://www.youtube.com/watch?v=upw-AIzWcfQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: ipython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="ipython"></category></entry><entry><title>Hy: A Lisp that transforms itself into the Python AST.</title><link href="/chipy/chipy-hy-a-lisp-that-transforms-itself-into-the-python-ast.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Webber</name></author><id>tag:,2013-06-26:chipy/chipy-hy-a-lisp-that-transforms-itself-into-the-python-ast.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=SB9TWabor1k"&gt;&lt;img alt="Hy: A Lisp that transforms itself into the Python AST." src="http://i1.ytimg.com/vi/SB9TWabor1k/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=SB9TWabor1k"&gt;https://www.youtube.com/watch?v=SB9TWabor1k&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>In-project virtualenvs</title><link href="/chipy/chipy-in-project-virtualenvs.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Webber</name></author><id>tag:,2013-06-26:chipy/chipy-in-project-virtualenvs.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=kXoSASlq7zU"&gt;&lt;img alt="In-project virtualenvs" src="http://i1.ytimg.com/vi/kXoSASlq7zU/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=kXoSASlq7zU"&gt;https://www.youtube.com/watch?v=kXoSASlq7zU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Who saved The Onion, from being hacked by "Syrian Electronic Army"</title><link href="/chipy/chipy-who-saved-the-onion-from-being-hacked-by-syrian-electronic-army.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Sean Bloomfield</name></author><id>tag:,2013-06-26:chipy/chipy-who-saved-the-onion-from-being-hacked-by-syrian-electronic-army.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=dXTtcs6DrzY"&gt;&lt;img alt="Who saved The Onion, from being hacked by &amp;quot;Syrian Electronic Army&amp;quot;" src="http://i1.ytimg.com/vi/dXTtcs6DrzY/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=dXTtcs6DrzY"&gt;https://www.youtube.com/watch?v=dXTtcs6DrzY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: C# is slightly better than you might imagine</title><link href="/chipy/chipy-ultimate-language-shootout-iv-c-is-slightly-better-than-you-might-imagine.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Philip Doctor</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-c-is-slightly-better-than-you-might-imagine.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=fByR4ghTOS8"&gt;&lt;img alt="Ultimate Language Shootout IV: C# is slightly better than you might imagine" src="http://i3.ytimg.com/vi/fByR4ghTOS8/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=fByR4ghTOS8"&gt;https://www.youtube.com/watch?v=fByR4ghTOS8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: CoffeeScript</title><link href="/chipy/chipy-ultimate-language-shootout-iv-coffeescript.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Feihong Hsu</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-coffeescript.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=oH_cEl2SMr8"&gt;&lt;img alt="Ultimate Language Shootout IV: CoffeeScript" src="http://i4.ytimg.com/vi/oH_cEl2SMr8/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=oH_cEl2SMr8"&gt;https://www.youtube.com/watch?v=oH_cEl2SMr8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: Go: come drink the delicious kool-aid</title><link href="/chipy/chipy-ultimate-language-shootout-iv-go-come-drink-the-delicious-kool-aid.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>David Sutton</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-go-come-drink-the-delicious-kool-aid.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=Aec6HTVv5EM"&gt;&lt;img alt="Ultimate Language Shootout IV: Go: come drink the delicious kool-aid" src="http://i2.ytimg.com/vi/Aec6HTVv5EM/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=Aec6HTVv5EM"&gt;https://www.youtube.com/watch?v=Aec6HTVv5EM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: Haskell or: How a List Comprehension Is Like a Burrito</title><link href="/chipy/chipy-ultimate-language-shootout-iv-haskell-or-how-a-list-comprehension-is-like-a-burrito.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Greg Kettler</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-haskell-or-how-a-list-comprehension-is-like-a-burrito.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=c5MPg88mdgc"&gt;&lt;img alt="Ultimate Language Shootout IV: Haskell or: How a List Comprehension Is Like a Burrito" src="http://i4.ytimg.com/vi/c5MPg88mdgc/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=c5MPg88mdgc"&gt;https://www.youtube.com/watch?v=c5MPg88mdgc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: QUASI</title><link href="/chipy/chipy-ultimate-language-shootout-iv-quasi.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Randy Baxley</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-quasi.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=Peww9AUH6yM"&gt;&lt;img alt="Ultimate Language Shootout IV: QUASI" src="http://i1.ytimg.com/vi/Peww9AUH6yM/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=Peww9AUH6yM"&gt;https://www.youtube.com/watch?v=Peww9AUH6yM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Ultimate Language Shootout IV: Ruby</title><link href="/chipy/chipy-ultimate-language-shootout-iv-ruby.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Ross Heflin</name></author><id>tag:,2013-06-13:chipy/chipy-ultimate-language-shootout-iv-ruby.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=NP0-Df2tISA"&gt;&lt;img alt="Ultimate Language Shootout IV: Ruby" src="http://i3.ytimg.com/vi/NP0-Df2tISA/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=NP0-Df2tISA"&gt;https://www.youtube.com/watch?v=NP0-Df2tISA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Open Science</title><link href="/chipy/chipy-open-science.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Sheila Miguez</name></author><id>tag:,2013-03-10:chipy/chipy-open-science.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=u2ujTHH40nw"&gt;&lt;img alt="Open Science" src="http://i2.ytimg.com/vi/u2ujTHH40nw/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=u2ujTHH40nw"&gt;https://www.youtube.com/watch?v=u2ujTHH40nw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Scraping from the Web: An Overview That Does Not Contain Too Much Cussing</title><link href="/chipy/chipy-scraping-from-the-web-an-overview-that-does-not-contain-too-much-cussing.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Feihong Hsu</name></author><id>tag:,2013-03-10:chipy/chipy-scraping-from-the-web-an-overview-that-does-not-contain-too-much-cussing.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=bWk0P7w2aZg"&gt;&lt;img alt="Scraping from the Web: An Overview That Does Not Contain Too Much Cussing" src="http://i3.ytimg.com/vi/bWk0P7w2aZg/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=bWk0P7w2aZg"&gt;https://www.youtube.com/watch?v=bWk0P7w2aZg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: scraping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="scraping"></category></entry><entry><title>Intro to Marmir: Spreadsheets on steroids</title><link href="/chipy/chipy-intro-to-marmir-spreadsheets-on-steroids.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2013-01-12:chipy/chipy-intro-to-marmir-spreadsheets-on-steroids.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=a7Oon2Bo8tE"&gt;&lt;img alt="Intro to Marmir: Spreadsheets on steroids" src="http://i2.ytimg.com/vi/a7Oon2Bo8tE/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=a7Oon2Bo8tE"&gt;https://www.youtube.com/watch?v=a7Oon2Bo8tE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Genie</title><link href="/chipy/chipy-genie.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Tal Liron</name></author><id>tag:,2013-01-11:chipy/chipy-genie.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=dFyD8--zs84"&gt;&lt;img alt="Genie" src="http://i1.ytimg.com/vi/dFyD8--zs84/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=dFyD8--zs84"&gt;https://www.youtube.com/watch?v=dFyD8--zs84&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: Genie, vala&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="Genie"></category><category term="vala"></category></entry><entry><title>SQLAlchemy: As She is Code, an opinionated Intro</title><link href="/chipy/chipy-sqlalchemy-as-she-is-code-an-opinionated-intro.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Jordan Bettis</name></author><id>tag:,2012-12-15:chipy/chipy-sqlalchemy-as-she-is-code-an-opinionated-intro.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=oy57f4evyO4"&gt;&lt;img alt="SQLAlchemy: As She is Code, an opinionated Intro" src="http://i4.ytimg.com/vi/oy57f4evyO4/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=oy57f4evyO4"&gt;https://www.youtube.com/watch?v=oy57f4evyO4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>MediaGoblin Update</title><link href="/chipy/chipy-mediagoblin-update.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Allan Webber</name></author><id>tag:,2012-10-12:chipy/chipy-mediagoblin-update.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=MrEoE0Py5ZY"&gt;&lt;img alt="MediaGoblin Update" src="http://i2.ytimg.com/vi/MrEoE0Py5ZY/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=MrEoE0Py5ZY"&gt;https://www.youtube.com/watch?v=MrEoE0Py5ZY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Python 3.3.0 Release</title><link href="/chipy/chipy-python-330-release.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Brian Curtin</name></author><id>tag:,2012-10-12:chipy/chipy-python-330-release.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=fbQvWcrOwUw"&gt;&lt;img alt="Python 3.3.0 Release" src="http://i3.ytimg.com/vi/fbQvWcrOwUw/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=fbQvWcrOwUw"&gt;https://www.youtube.com/watch?v=fbQvWcrOwUw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Event Driven Concurrency</title><link href="/chipy/chipy-event-driven-concurrency.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Ben Toews</name></author><id>tag:,2012-09-19:chipy/chipy-event-driven-concurrency.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=2gcrTsQ7yi4"&gt;&lt;img alt="Event Driven Concurrency" src="http://i3.ytimg.com/vi/2gcrTsQ7yi4/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=2gcrTsQ7yi4"&gt;https://www.youtube.com/watch?v=2gcrTsQ7yi4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Matplotlib Examples Uses</title><link href="/chipy/chipy-matplotlib-examples-uses.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Greg Kettler</name></author><id>tag:,2012-09-19:chipy/chipy-matplotlib-examples-uses.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=lX1tFs6mtvk"&gt;&lt;img alt="Matplotlib Examples Uses" src="http://i1.ytimg.com/vi/lX1tFs6mtvk/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=lX1tFs6mtvk"&gt;https://www.youtube.com/watch?v=lX1tFs6mtvk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Open Government Data Movement</title><link href="/chipy/chipy-open-government-data-movement.html" rel="alternate"></link><updated>2014-09-29T11:16:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-06-17:chipy/chipy-open-government-data-movement.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=wNRb2P9bjTc"&gt;&lt;img alt="Open Government Data Movement" src="/default_thumbnail_url.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=wNRb2P9bjTc"&gt;https://www.youtube.com/watch?v=wNRb2P9bjTc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Python powered search</title><link href="/chipy/chipy-python-powered-search.html" rel="alternate"></link><updated>2014-09-29T12:19:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-06-17:chipy/chipy-python-powered-search.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=AxM9Qe6shoU"&gt;&lt;img alt="Python powered search" src="/default_thumbnail_url.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Explore the indexing / stemming / scoring libraries used to built a highly
+concise search engine along with redis and tornado.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=AxM9Qe6shoU"&gt;https://www.youtube.com/watch?v=AxM9Qe6shoU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Big Data De-duping</title><link href="/chipy/chipy-big-data-de-duping.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Derek Eder</name></author><id>tag:,2012-06-15:chipy/chipy-big-data-de-duping.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=7Lwlo42j6aA"&gt;&lt;img alt="Big Data De-duping" src="http://i4.ytimg.com/vi/7Lwlo42j6aA/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=7Lwlo42j6aA"&gt;https://www.youtube.com/watch?v=7Lwlo42j6aA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Asynchronous vs. Threaded Python</title><link href="/chipy/chipy-asynchronous-vs-threaded-python.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-asynchronous-vs-threaded-python.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/589_asynchronous-vs-threaded-python.flv"&gt;&lt;img alt="Asynchronous vs. Threaded Python" src="http://a.images.blip.tv/CarlFK-asynchronous_vs_threaded_Python680-721.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Asynchronous vs. Threaded Python&lt;/p&gt;
+&lt;p&gt;Presented at ChiPy by David Beazley on June 12th, 2009&lt;/p&gt;
+&lt;p&gt;This is the opening act to Mindblowing GIL. Covers threading vs. asynchronous
+programming in Python.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/589_asynchronous-vs-threaded-python.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/589_asynchronous-vs-threaded-python.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: asynchronous, chipy, gil, threads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="asynchronous"></category><category term="chipy"></category><category term="gil"></category><category term="threads"></category></entry><entry><title>Blender 2.5 loves Python 3</title><link href="/chipy/chipy-blender-25-loves-python-3.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Allan Webber</name></author><id>tag:,2012-02-23:chipy/chipy-blender-25-loves-python-3.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://blip.tv/file/2785963"&gt;&lt;img alt="Blender 2.5 loves Python 3" src="http://a.images.blip.tv/CarlFK-Blender25LovesPython3867.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Blender 2.5 loves Python 3&lt;/p&gt;
+&lt;p&gt;Presented by Chris Webber on October 8th, 2009&lt;/p&gt;
+&lt;p&gt;Chris talks about the upcoming Blender 2.5 release. &amp;quot;Blender 2.5 is the first
+app I know of that &lt;em&gt;requires&lt;/em&gt; Python 3.X. So that's pretty interesting on its
+own. But there's plenty more interesting stuff to discuss. It's going to be
+mostly an overview talk. Blender's python integration could possibly span 3
+separate talks, especially considering the blender game engine's use of it,
+which is a separate but interesting talk.&amp;quot;&lt;/p&gt;
+&lt;p&gt;ChiPy is a group of Chicago Python Programmers, l33t, and n00bs. Meetings are
+held monthly at various locations around Chicago. Also, ChiPy is a proud
+sponsor of many Open Source and Educational efforts in Chicago. Stay tuned to
+the mailing list for more info. [ChiPy website](&lt;a class="reference external" href="http://chipy.org/"&gt;http://chipy.org/&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://blip.tv/file/2785963"&gt;http://blip.tv/file/2785963&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: blender, chipy, chriswebber, python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="blender"></category><category term="chipy"></category><category term="chriswebber"></category><category term="python3"></category></entry><entry><title>Changes to the GIL in Python 3</title><link href="/chipy/chipy-changes-to-the-gil-in-python-3.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>David Beazley</name></author><id>tag:,2012-02-23:chipy/chipy-changes-to-the-gil-in-python-3.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/580_changes-to-the-gil-in-python-3.ogv"&gt;&lt;img alt="Changes to the GIL in Python 3" src="http://a.images.blip.tv/CarlFK-ChangesToTheGILInPython3492.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/580_changes-to-the-gil-in-python-3.ogv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/580_changes-to-the-gil-in-python-3.ogv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, gil, python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="gil"></category><category term="python3"></category></entry><entry><title>ChiPy: Chicago Python User Group Jan. '08 Meeting</title><link href="/chipy/chipy-chipy-chicago-python-user-group-jan-08-meeting.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-chipy-chicago-python-user-group-jan-08-meeting.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://video.google.com/videoplay?docid=-906354546937878632"&gt;&lt;img alt="ChiPy: Chicago Python User Group Jan. '08 Meeting" src="/default_thumbnail_url.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;pickle module -- Atul Varma
+* PyStage, an animation framework -- Christopher Allan Webber
+* Python Scripting for OpenOffice -- Steve Githens&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://video.google.com/videoplay?docid=-906354546937878632"&gt;http://video.google.com/videoplay?docid=-906354546937878632&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chriswebber, openoffice, pickle, pystage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chriswebber"></category><category term="openoffice"></category><category term="pickle"></category><category term="pystage"></category></entry><entry><title>Customizing the Django Admin</title><link href="/chipy/chipy-customizing-the-django-admin.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-customizing-the-django-admin.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/576_customizing-the-django-admin.flv"&gt;&lt;img alt="Customizing the Django Admin" src="http://a.images.blip.tv/CarlFK-CustomizingTheDjangoAdmin188-963.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Registering Models in the Admin
+* Customizing the filtering, search, general display
+* Adding Actions
+* Inlines
+* Custom Forms
+* Making Fields Readonly by inheriting
+* Integrating jQuery
+* Custom Widgets like Image thumbnails
+* Changing look and feel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/576_customizing-the-django-admin.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/576_customizing-the-django-admin.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: admin, chipy, customizing, jquery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="admin"></category><category term="chipy"></category><category term="customizing"></category><category term="jquery"></category></entry><entry><title>Django Deployment for the Average Bloke</title><link href="/chipy/chipy-django-deployment-for-the-average-bloke.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Carl Karsten</name></author><id>tag:,2012-02-23:chipy/chipy-django-deployment-for-the-average-bloke.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/570_django-deployment-for-the-average-bloke.m4v"&gt;&lt;img alt="Django Deployment for the Average Bloke" src="http://a.images.blip.tv/CarlFK-DjangoDeploymentForTheAverageBloke934.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;This is the config you want to use if you don't know what you want to use. You
+don't need to make any choices, you don't have to do any research, and you
+don't even need to read the docs if you don't want to. And as an added bonus,
+I show how to wget a vm image to deploy into with network ports exposed. It is
+very much like working with a hosting provider like Slice Host, and it makes a
+great framework for testing server installs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/570_django-deployment-for-the-average-bloke.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/570_django-deployment-for-the-average-bloke.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: apache, chipy, deployment, mod_wsgi, pinax, postgresql, web&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="apache"></category><category term="chipy"></category><category term="deployment"></category><category term="mod_wsgi"></category><category term="pinax"></category><category term="postgresql"></category><category term="web"></category></entry><entry><title>GitPython and Git Internals</title><link href="/chipy/chipy-gitpython-and-git-internals.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Allan Webber</name></author><id>tag:,2012-02-23:chipy/chipy-gitpython-and-git-internals.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/579_gitpython-and-git-internals.ogv"&gt;&lt;img alt="GitPython and Git Internals" src="http://a.images.blip.tv/CarlFK-GitPythonAndGitInternals503.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/579_gitpython-and-git-internals.ogv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/579_gitpython-and-git-internals.ogv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, git, gitpython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="git"></category><category term="gitpython"></category></entry><entry><title>GNU MediaGoblin for a federated media future</title><link href="/chipy/chipy-gnu-mediagoblin-for-a-federated-media-future.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Allan Webber</name></author><id>tag:,2012-02-23:chipy/chipy-gnu-mediagoblin-for-a-federated-media-future.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.m4v"&gt;&lt;img alt="GNU MediaGoblin for a federated media future" src="http://a.images.blip.tv/CarlFK-GNUMediaGoblinForAFederatedMediaFuture830.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/565_gnu-mediagoblin-for-a-federated-media-future.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, chriswebber, cwebber, foss, gnu, media, mediagoblin, mongodb, mongokit, wsgi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="chriswebber"></category><category term="cwebber"></category><category term="foss"></category><category term="gnu"></category><category term="media"></category><category term="mediagoblin"></category><category term="mongodb"></category><category term="mongokit"></category><category term="wsgi"></category></entry><entry><title>Mindblowing Python GIL</title><link href="/chipy/chipy-mindblowing-python-gil.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>David Beazley</name></author><id>tag:,2012-02-23:chipy/chipy-mindblowing-python-gil.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/588_mindblowing-python-gil.flv"&gt;&lt;img alt="Mindblowing Python GIL" src="http://a.images.blip.tv/CarlFK-mindblowing_Python_GIL693-605.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Mindblowing Python GIL&lt;/p&gt;
+&lt;p&gt;Presented by David Beazley at ChiPy on June 11, 2009&lt;/p&gt;
+&lt;p&gt;David Beazley: mind-blowing presentation about how the Python GIL actually
+works and why it's even worse than most people even imagine.&lt;/p&gt;
+&lt;p&gt;Slides:
+[&lt;a class="reference external" href="http://www.dabeaz.com/python/GIL.pdf](http://www.dabeaz.com/python/GIL.pdf"&gt;http://www.dabeaz.com/python/GIL.pdf](http://www.dabeaz.com/python/GIL.pdf&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[VIDEO HAS PROBLEMS: audio is fuzzy]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/588_mindblowing-python-gil.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/588_mindblowing-python-gil.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, gil, python-advanced&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="gil"></category><category term="python-advanced"></category></entry><entry><title>Playdoh</title><link href="/chipy/chipy-playdoh.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Kumar McMillan</name></author><id>tag:,2012-02-23:chipy/chipy-playdoh.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/563_playdoh.m4v"&gt;&lt;img alt="Playdoh" src="http://a.images.blip.tv/CarlFK-Playdoh611.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/563_playdoh.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/563_playdoh.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, playdoh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="playdoh"></category></entry><entry><title>Programming with Twisted</title><link href="/chipy/chipy-programming-with-twisted.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Dan Griffen</name></author><id>tag:,2012-02-23:chipy/chipy-programming-with-twisted.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/574_programming-with-twisted.flv"&gt;&lt;img alt="Programming with Twisted" src="http://a.images.blip.tv/CarlFK-ProgrammingWithTwisted152.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/574_programming-with-twisted.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/574_programming-with-twisted.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, twisted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="twisted"></category></entry><entry><title>PyPy and Unladen Swallow: Making your Python Fast</title><link href="/chipy/chipy-pypy-and-unladen-swallow-making-your-python-fast.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Alex Gaynor</name></author><id>tag:,2012-02-23:chipy/chipy-pypy-and-unladen-swallow-making-your-python-fast.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/573_pypy-and-unladen-swallow-making-your-python-fast.flv"&gt;&lt;img alt="PyPy and Unladen Swallow: Making your Python Fast" src="http://a.images.blip.tv/CarlFK-PyPyAndUnladenSwallowMakingYourPythonFast798.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/573_pypy-and-unladen-swallow-making-your-python-fast.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/573_pypy-and-unladen-swallow-making-your-python-fast.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, optimization, performance, pypy, unladenswallow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="optimization"></category><category term="performance"></category><category term="pypy"></category><category term="unladenswallow"></category></entry><entry><title>Python for Scientific and High Performance Computing (1 of 4)</title><link href="/chipy/chipy-python-for-scientific-and-high-performance-computing-1-of-4.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-python-for-scientific-and-high-performance-computing-1-of-4.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/586_python-for-scientific-and-high-performance-computing-1-of-4.flv"&gt;&lt;img alt="Python for Scientific and High Performance Computing (1 of 4)" src="http://a.images.blip.tv/CarlFK-PythonForScientificAndHighPerformanceComputing1Of4136.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Python, a high-level portable multi-paradigm interpreted programming language
+is becoming increasingly popular with the scientific and HPC communities due
+to ease of use, large collection of modules, adaptability, and strong support
+from vendors and community alike. This tutorial provides an introduction to
+Python focused on HPC and scientific computing. Throughout, we provide
+concrete examples, hands-on examples, and links to additional sources of
+information. The result will be a clear sense of possibilities and best
+practices using Python in HPC environments. We will cover several key
+concepts: language basics, NumPy and SciPy, parallel programming, performance
+issues, integrating C and Fortran, basic visualization, large production
+codes, and finding resources. While it is impossible to address all libraries
+and application domains, at the end participants should be able to write a
+simple application making use of parallel programming techniques, visualize
+the output, and know how to confidently proceed with future projects with
+Python.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/586_python-for-scientific-and-high-performance-computing-1-of-4.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/586_python-for-scientific-and-high-performance-computing-1-of-4.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, numpy, scipy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="numpy"></category><category term="scipy"></category></entry><entry><title>Python for Scientific and High Performance Computing (2 of 4)</title><link href="/chipy/chipy-python-for-scientific-and-high-performance-computing-2-of-4.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-python-for-scientific-and-high-performance-computing-2-of-4.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/585_python-for-scientific-and-high-performance-computing-2-of-4.flv"&gt;&lt;img alt="Python for Scientific and High Performance Computing (2 of 4)" src="http://a.images.blip.tv/CarlFK-PythonForScientificAndHighPerformanceComputing2Of4542.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Python for Scientific and High Performance Computing (part 2 of 4)&lt;/p&gt;
+&lt;p&gt;Python, a high-level portable multi-paradigm interpreted programming language
+is becoming increasingly popular with the scientific and HPC communities due
+to ease of use, large collection of modules, adaptability, and strong support
+from vendors and community alike. This tutorial provides an introduction to
+Python focused on HPC and scientific computing. Throughout, we provide
+concrete examples, hands-on examples, and links to additional sources of
+information. The result will be a clear sense of possibilities and best
+practices using Python in HPC environments. We will cover several key
+concepts: language basics, NumPy and SciPy, parallel programming, performance
+issues, integrating C and Fortran, basic visualization, large production
+codes, and finding resources. While it is impossible to address all libraries
+and application domains, at the end participants should be able to write a
+simple application making use of parallel programming techniques, visualize
+the output, and know how to confidently proceed with future projects with
+Python.&lt;/p&gt;
+&lt;p&gt;ChiPy is a group of Chicago Python Programmers, l33t, and n00bs. Meetings are
+held monthly at various locations around Chicago. Also, ChiPy is a proud
+sponsor of many Open Source and Educational efforts in Chicago.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/585_python-for-scientific-and-high-performance-computing-2-of-4.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/585_python-for-scientific-and-high-performance-computing-2-of-4.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, numpy, scipy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="numpy"></category><category term="scipy"></category></entry><entry><title>Python for Scientific and High Performance Computing (3 of 4)</title><link href="/chipy/chipy-python-for-scientific-and-high-performance-computing-3-of-4.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-python-for-scientific-and-high-performance-computing-3-of-4.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/584_python-for-scientific-and-high-performance-computing-3-of-4.flv"&gt;&lt;img alt="Python for Scientific and High Performance Computing (3 of 4)" src="http://a.images.blip.tv/CarlFK-PythonForScientificAndHighPerformanceComputing3Of4188.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Python for Scientific and High Performance Computing (part 3 of 4)&lt;/p&gt;
+&lt;p&gt;Python, a high-level portable multi-paradigm interpreted programming language
+is becoming increasingly popular with the scientific and HPC communities due
+to ease of use, large collection of modules, adaptability, and strong support
+from vendors and community alike. This tutorial provides an introduction to
+Python focused on HPC and scientific computing. Throughout, we provide
+concrete examples, hands-on examples, and links to additional sources of
+information. The result will be a clear sense of possibilities and best
+practices using Python in HPC environments. We will cover several key
+concepts: language basics, NumPy and SciPy, parallel programming, performance
+issues, integrating C and Fortran, basic visualization, large production
+codes, and finding resources. While it is impossible to address all libraries
+and application domains, at the end participants should be able to write a
+simple application making use of parallel programming techniques, visualize
+the output, and know how to confidently proceed with future projects with
+Python.&lt;/p&gt;
+&lt;p&gt;ChiPy is a group of Chicago Python Programmers, l33t, and n00bs. Meetings are
+held monthly at various locations around Chicago. Also, ChiPy is a proud
+sponsor of many Open Source and Educational efforts in Chicago.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/584_python-for-scientific-and-high-performance-computing-3-of-4.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/584_python-for-scientific-and-high-performance-computing-3-of-4.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, numpy, scipy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="numpy"></category><category term="scipy"></category></entry><entry><title>Python for Scientific and High Performance Computing (4 of 4)</title><link href="/chipy/chipy-python-for-scientific-and-high-performance-computing-4-of-4.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-python-for-scientific-and-high-performance-computing-4-of-4.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/583_python-for-scientific-and-high-performance-computing-4-of-4.flv"&gt;&lt;img alt="Python for Scientific and High Performance Computing (4 of 4)" src="http://a.images.blip.tv/CarlFK-PythonForScientificAndHighPerformanceComputing4Of4887.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Python for Scientific and High Performance Computing (part 4 of 4)&lt;/p&gt;
+&lt;p&gt;Python, a high-level portable multi-paradigm interpreted programming language
+is becoming increasingly popular with the scientific and HPC communities due
+to ease of use, large collection of modules, adaptability, and strong support
+from vendors and community alike. This tutorial provides an introduction to
+Python focused on HPC and scientific computing. Throughout, we provide
+concrete examples, hands-on examples, and links to additional sources of
+information. The result will be a clear sense of possibilities and best
+practices using Python in HPC environments. We will cover several key
+concepts: language basics, NumPy and SciPy, parallel programming, performance
+issues, integrating C and Fortran, basic visualization, large production
+codes, and finding resources. While it is impossible to address all libraries
+and application domains, at the end participants should be able to write a
+simple application making use of parallel programming techniques, visualize
+the output, and know how to confidently proceed with future projects with
+Python.&lt;/p&gt;
+&lt;p&gt;ChiPy is a group of Chicago Python Programmers, l33t, and n00bs. Meetings are
+held monthly at various locations around Chicago. Also, ChiPy is a proud
+sponsor of many Open Source and Educational efforts in Chicago.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/583_python-for-scientific-and-high-performance-computing-4-of-4.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/583_python-for-scientific-and-high-performance-computing-4-of-4.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, numpy, scipy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="numpy"></category><category term="scipy"></category></entry><entry><title>Python/Django deployment</title><link href="/chipy/chipy-pythondjango-deployment.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Rohit Sankaran</name></author><id>tag:,2012-02-23:chipy/chipy-pythondjango-deployment.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://blip.tv/file/4754795"&gt;&lt;img alt="Python/Django deployment" src="http://a.images.blip.tv/CarlFK-PythonDjangoDeployment775.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://blip.tv/file/4754795"&gt;http://blip.tv/file/4754795&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: apache, chipy, fabric, nginx, wsgi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="apache"></category><category term="chipy"></category><category term="fabric"></category><category term="nginx"></category><category term="wsgi"></category></entry><entry><title>REST-ful Web apps with Django Piston</title><link href="/chipy/chipy-rest-ful-web-apps-with-django-piston.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-rest-ful-web-apps-with-django-piston.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://blip.tv/file/2964989"&gt;&lt;img alt="REST-ful Web apps with Django Piston" src="http://a.images.blip.tv/CarlFK-RESTfulWebAppsWithDjangoPiston528.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://blip.tv/file/2964989"&gt;http://blip.tv/file/2964989&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, extjs, piston&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="extjs"></category><category term="piston"></category></entry><entry><title>Reverse-engineering Ian Bicking's brain: inside pip and virtualenv.</title><link href="/chipy/chipy-reverse-engineering-ian-bickings-brain-inside-pip-and-virtualenv.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Carl Meyer</name></author><id>tag:,2012-02-23:chipy/chipy-reverse-engineering-ian-bickings-brain-inside-pip-and-virtualenv.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/568_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.flv"&gt;&lt;img alt="Reverse-engineering Ian Bicking's brain: inside pip and virtualenv." src="http://a.images.blip.tv/CarlFK-ReverseengineeringIanBickingsBrainInsidePipAndVirtualenv225.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;1 [&lt;a class="reference external" href="http://us.pycon.org/2011/schedule/sessions/198/](http://us.pycon.org/2011/schedule/sessions/198/"&gt;http://us.pycon.org/2011/schedule/sessions/198/](http://us.pycon.org/2011/schedule/sessions/198/&lt;/a&gt;)
+* 2 [&lt;a class="reference external" href="http://pip.openplans.org/](http://pip.openplans.org/"&gt;http://pip.openplans.org/](http://pip.openplans.org/&lt;/a&gt;)
+* 3 [&lt;a class="reference external" href="http://virtualenv.openplans.org/](http://virtualenv.openplans.org/"&gt;http://virtualenv.openplans.org/](http://virtualenv.openplans.org/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/568_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/568_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, ianbicking, pip, virtualenv&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="ianbicking"></category><category term="pip"></category><category term="virtualenv"></category></entry><entry><title>ROS - Robot Operating System</title><link href="/chipy/chipy-ros-robot-operating-system.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Bill Mania</name></author><id>tag:,2012-02-23:chipy/chipy-ros-robot-operating-system.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/571_ros-robot-operating-system.m4v"&gt;&lt;img alt="ROS - Robot Operating System" src="http://a.images.blip.tv/CarlFK-ROSRobotOperatingSystem313.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/571_ros-robot-operating-system.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/571_ros-robot-operating-system.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, robot, ros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="robot"></category><category term="ros"></category></entry><entry><title>Technical, standards-spec style analysis of Unicode</title><link href="/chipy/chipy-technical-standards-spec-style-analysis-of-unicode.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Jordan Bettis</name></author><id>tag:,2012-02-23:chipy/chipy-technical-standards-spec-style-analysis-of-unicode.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/581_technical-standards-spec-style-analysis-of-unicode.ogv"&gt;&lt;img alt="Technical, standards-spec style analysis of Unicode" src="http://a.images.blip.tv/CarlFK-TechnicalStandardsspecStyleAnalysisOfUnicode223.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/581_technical-standards-spec-style-analysis-of-unicode.ogv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/581_technical-standards-spec-style-analysis-of-unicode.ogv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, unicode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="unicode"></category></entry><entry><title>Tox</title><link href="/chipy/chipy-tox.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Kumar McMillan</name></author><id>tag:,2012-02-23:chipy/chipy-tox.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv"&gt;&lt;img alt="Tox" src="http://a.images.blip.tv/CarlFK-Tox172.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Here's our Hudson matrix setup w/ tox: [&lt;a class="reference external" href="http://hudson.testrun.org/job/nose"&gt;http://hudson.testrun.org/job/nose&lt;/a&gt;-
+unstable/](&lt;a class="reference external" href="http://hudson.testrun.org/job/nose-unstable/"&gt;http://hudson.testrun.org/job/nose-unstable/&lt;/a&gt;) (we just set this up
+recently which is why most builds were broken in one or two envs) I can also
+spend some time going over how we are currently maintaining a test suite that
+runs in both 2.x and 3.x simultaneously.&lt;/p&gt;
+&lt;p&gt;This will be our Best Meeting Ever!&lt;/p&gt;
+&lt;p&gt;[&lt;a class="reference external" href="http://codespeak.net/tox/](http://codespeak.net/tox/"&gt;http://codespeak.net/tox/](http://codespeak.net/tox/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[&lt;a class="reference external" href="http://chipy.org/](http://chipy.org/"&gt;http://chipy.org/](http://chipy.org/&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, testing, tox&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="testing"></category><category term="tox"></category></entry><entry><title>Twiggy: A Pythonic Logger</title><link href="/chipy/chipy-twiggy-a-pythonic-logger.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Peter Fein</name></author><id>tag:,2012-02-23:chipy/chipy-twiggy-a-pythonic-logger.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/578_twiggy-a-pythonic-logger.m4v"&gt;&lt;img alt="Twiggy: A Pythonic Logger" src="http://a.images.blip.tv/CarlFK-TwiggyAPythonicLogger801-516.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/578_twiggy-a-pythonic-logger.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/578_twiggy-a-pythonic-logger.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, logging, twiggy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="logging"></category><category term="twiggy"></category></entry><entry><title>Using OpenCV with Python and ROS</title><link href="/chipy/chipy-using-opencv-with-python-and-ros.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Bill Mania</name></author><id>tag:,2012-02-23:chipy/chipy-using-opencv-with-python-and-ros.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.m4v"&gt;&lt;img alt="Using OpenCV with Python and ROS" src="http://a.images.blip.tv/CarlFK-UsingOpenCVWithPythonAndROS709.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/564_using-opencv-with-python-and-ros.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: billmania, camera, chipy, image, opencv, robot, ros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="billmania"></category><category term="camera"></category><category term="chipy"></category><category term="image"></category><category term="opencv"></category><category term="robot"></category><category term="ros"></category></entry><entry><title>Using Python for Blender Animations</title><link href="/chipy/chipy-using-python-for-blender-animations.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Allan Webber</name></author><id>tag:,2012-02-23:chipy/chipy-using-python-for-blender-animations.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/575_using-python-for-blender-animations.flv"&gt;&lt;img alt="Using Python for Blender Animations" src="http://a.images.blip.tv/CarlFK-UsingPythonForBlenderAnimations589-560.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;A walk through using Blender 2.5's new Python API to automate various
+animation tasks, using examples from the film Patent Absurdity:
+&lt;a class="reference external" href="http://patentabsurdity.com/"&gt;http://patentabsurdity.com/&lt;/a&gt; &lt;a class="reference external" href="http://patentabsurdity.com/fsf_patent_anims.tar.gz"&gt;http://patentabsurdity.com/fsf_patent_anims.tar.gz&lt;/a&gt;
+has the sources of the animations demonstrated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/575_using-python-for-blender-animations.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/575_using-python-for-blender-animations.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: blender, chipy, chriswebber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="blender"></category><category term="chipy"></category><category term="chriswebber"></category></entry><entry><title>Vintage 1978 Superboard II hacking with some Python3 and ZeroMQ</title><link href="/chipy/chipy-vintage-1978-superboard-ii-hacking-with-some-python3-and-zeromq.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>David Beazley</name></author><id>tag:,2012-02-23:chipy/chipy-vintage-1978-superboard-ii-hacking-with-some-python3-and-zeromq.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/569_vintage-1978-superboard-ii-hacking-with-some-python3-and-zeromq.m4v"&gt;&lt;img alt="Vintage 1978 Superboard II hacking with some Python3 and ZeroMQ" src="http://a.images.blip.tv/CarlFK-Vintage1978SuperboardIIHackingWithSomePython3AndZeroMQ478.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/569_vintage-1978-superboard-ii-hacking-with-some-python3-and-zeromq.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/569_vintage-1978-superboard-ii-hacking-with-some-python3-and-zeromq.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, cool, python3, zeromq&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="cool"></category><category term="python3"></category><category term="zeromq"></category></entry><entry><title>Web Apps with Jython</title><link href="/chipy/chipy-web-apps-with-jython.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-web-apps-with-jython.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/590_web-apps-with-jython.flv"&gt;&lt;img alt="Web Apps with Jython" src="http://a.images.blip.tv/CarlFK-go_pylons531-385.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;Building apps with Jython&lt;/p&gt;
+&lt;p&gt;Presented on May 15th, 2009 at ChiPy&lt;/p&gt;
+&lt;p&gt;Talks about go_pylons and snakefight and other things that allow you to build
+and run Python applications with Jython. WSGI to servlet adapter in Jython
+2.5.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/590_web-apps-with-jython.flv"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/590_web-apps-with-jython.flv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, go_pylons, jython, snakefight, wsgi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="go_pylons"></category><category term="jython"></category><category term="snakefight"></category><category term="wsgi"></category></entry><entry><title>What's coming up in Python 2.7</title><link href="/chipy/chipy-whats-coming-up-in-python-27.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Unknown</name></author><id>tag:,2012-02-23:chipy/chipy-whats-coming-up-in-python-27.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/577_what-s-coming-up-in-python-2-7.m4v"&gt;&lt;img alt="What's coming up in Python 2.7" src="http://a.images.blip.tv/CarlFK-WhatsComingUpIn27408-544.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: ChiPy&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/577_what-s-coming-up-in-python-2-7.m4v"&gt;http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/577_what-s-coming-up-in-python-2-7.m4v&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags: chipy, python27&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="chipy"></category><category term="python27"></category></entry></feed>

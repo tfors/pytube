@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Fully Test-driven Django with selenium part 1</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/europython-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/europython-2012/europython-2012-fully-test-driven-django-with-selenium-part-1.html" rel="bookmark"
+         title="Permalink to Fully Test-driven Django with selenium part 1">Fully Test-driven Django with selenium part 1</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-09-06T22:33:00+00:00">
+      Thu 06 September 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/h-percival.html">H Percival</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://www.youtube.com/watch?v=WfyoC0h9QKA"><img alt="Fully Test-driven Django with selenium part 1" src="http://i.ytimg.com/vi/WfyoC0h9QKA/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>tl; dr: The concept: run through the official Django tutorial, but with full
+TDD Includes browser-based testing with Selenium, using the new WebDriver API
+In-depth unit-testing, including the Django Test Client and tools like Mock
+Discussions of TDD philosophy: what to test, what not to test, how to test
+[<a class="reference external" href="http://www.tdd-django-tutorial.com/](http://www.tdd-django-tutorial.com/">http://www.tdd-django-tutorial.com/](http://www.tdd-django-tutorial.com/</a>)
+[<a class="reference external" href="https://github.com/hjwp/Test-Driven-Django-Tutorial](https://github.com/hjwp">https://github.com/hjwp/Test-Driven-Django-Tutorial](https://github.com/hjwp</a>
+/Test-Driven-Django-Tutorial) come prepared! you’ll need git, firefox,
+python2.7, django1.4 and selenium installed. Fully Test-Driven Django with
+Selenium AKA “The Django Pony vs The Testing Goat” This tutorial is aimed
+primarily at people who want to learn about one or many of: Django Selenium
+Test-Driven-Development So it’s aimed at beginners of one kind or another – if
+you are already well versed in all three, then you may not get much out of it.
+The idea is to run through the steps covered by the official Django tutorial,
+covering the essentials of Django from a beginner’s point of view. However, at
+each stage, instead of “just” writing the Django code required to build our
+site, we first write tests. And we don’t just write unit tests! We start by
+writing “functional” or “acceptance” tests, using Selenium - which means
+driving a real browser, and checking the actual behaviour of the site as it is
+rendered, from the user’s point of view. Why should you listen to me, I hear
+you ask? Well, I was lucky enough to get my first “proper” software
+development job about two years ago with a bunch of Extreme Programming
+fanatics, who’ve thoroughly inculcated me into their cult of Test-Driven
+development. Believe me when I say I’m contrary enough to have questioned
+every single practice, challenged every single decision, moaned about every
+extra minute spent doing “pointless” tests instead of writing “proper” code.
+But I’ve come round to the idea now, and whenever I’ve had to go back to some
+of my old projects which don’t have tests, boy have I ever realised the wisdom
+of the approach. So, I’ve learnt from some really good people, and the
+learning process is still fresh in my mind, and most importantly, I still have
+the passion of a recent convert! Pre-requisites Come with the following pre-
+installed on your laptop please: Git Firefox Python 2.7
+setuptools/easy_install/pip then: pip install django pip install selenium pip
+install mock PS - I don’t have a preview of my TDD talk, but there is one
+video of me giving a lightning talk at last year’s Pycon UK. It’s on a totally
+different topic, but it gives a hit of my “dynamic” presentation “skills&quot;: - [
+<a class="reference external" href="https://www.youtube.com/watch?v=e6NLAbgmRZ4](https://www.youtube.com/watch">https://www.youtube.com/watch?v=e6NLAbgmRZ4](https://www.youtube.com/watch</a>?v=e
+6NLAbgmRZ4)</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: EuroPython 2012</li>
+<li>Direct Link: <a class="reference external" href="http://www.youtube.com/watch?v=WfyoC0h9QKA">http://www.youtube.com/watch?v=WfyoC0h9QKA</a></li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

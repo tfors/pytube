@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>pytube</title><link href="/" rel="alternate"></link><link href="/feeds/openstack-pycon-au-2013.atom.xml" rel="self"></link><id>/</id><updated>2014-07-26T12:41:00+00:00</updated><entry><title>WTF is OpenStack</title><link href="/openstack-pycon-au-2013/openstack-pycon-au-2013-wtf-is-openstack.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Tim Serong</name></author><id>tag:,2013-07-13:openstack-pycon-au-2013/openstack-pycon-au-2013-wtf-is-openstack.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=r7wNfw-MvLA"&gt;&lt;img alt="WTF is OpenStack" src="http://i1.ytimg.com/vi/r7wNfw-MvLA/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: OpenStack Pycon AU 2013&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=r7wNfw-MvLA"&gt;https://www.youtube.com/watch?v=r7wNfw-MvLA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Getting Started with OpenStack Development</title><link href="/openstack-pycon-au-2013/openstack-pycon-au-2013-getting-started-with-openstack-development.html" rel="alternate"></link><updated>2014-07-26T12:41:00+00:00</updated><author><name>Robert Collins</name></author><id>tag:,2013-07-13:openstack-pycon-au-2013/openstack-pycon-au-2013-getting-started-with-openstack-development.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=dIEnypwfEcg"&gt;&lt;img alt="Getting Started with OpenStack Development" src="http://i1.ytimg.com/vi/dIEnypwfEcg/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: OpenStack Pycon AU 2013&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=dIEnypwfEcg"&gt;https://www.youtube.com/watch?v=dIEnypwfEcg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Nova v3 API</title><link href="/openstack-pycon-au-2013/openstack-pycon-au-2013-nova-v3-api.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Christopher Yeoh</name></author><id>tag:,2013-07-13:openstack-pycon-au-2013/openstack-pycon-au-2013-nova-v3-api.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=cXQ6abwqjg0"&gt;&lt;img alt="Nova v3 API" src="http://i1.ytimg.com/vi/cXQ6abwqjg0/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: OpenStack Pycon AU 2013&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=cXQ6abwqjg0"&gt;https://www.youtube.com/watch?v=cXQ6abwqjg0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Testtools and Test Repository - the Python test frameworks OpenStack uses</title><link href="/openstack-pycon-au-2013/openstack-pycon-au-2013-testtools-and-test-repository-the-python-test-frameworks-openstack-uses.html" rel="alternate"></link><updated>2014-04-08T20:28:00+00:00</updated><author><name>Robert Collins</name></author><id>tag:,2013-07-13:openstack-pycon-au-2013/openstack-pycon-au-2013-testtools-and-test-repository-the-python-test-frameworks-openstack-uses.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://www.youtube.com/watch?v=Oe_HhBBbqbw"&gt;&lt;img alt="Testtools and Test Repository - the Python test frameworks OpenStack uses" src="http://i1.ytimg.com/vi/Oe_HhBBbqbw/hqdefault.jpg" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;div class="section" id="details"&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Category: OpenStack Pycon AU 2013&lt;/li&gt;
+&lt;li&gt;Language: English&lt;/li&gt;
+&lt;li&gt;Direct Link: &lt;a class="reference external" href="https://www.youtube.com/watch?v=Oe_HhBBbqbw"&gt;https://www.youtube.com/watch?v=Oe_HhBBbqbw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry></feed>

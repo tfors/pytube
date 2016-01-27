@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2014.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2014/scipy-2014-the-history-and-design-behind-the-python-geophysical-modelling-and-interpretation-pygmi-package.html" rel="bookmark"
+         title="Permalink to The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package">The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2014-07-15T22:45:00+00:00">
+      Tue 15 July 2014
+    </time>
+    <time class="modified" datetime="2014-07-15T23:22:00+00:00">
+      Tue 15 July 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/patrick-cole.html">Patrick Cole</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://www.youtube.com/watch?v=5kM3tKkjoSw"><img alt="The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package" src="http://i1.ytimg.com/vi/5kM3tKkjoSw/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>The Council for Geoscience (CGS) is the so called &quot;Geological Survey&quot;
+of South Africa. Like many similar institutions around the world, financial
+restrictions play a significant role in limiting what tools are available to
+scientists. It was from this need to stay scientifically current, while keeping
+the software inexpensive, that the examination of Python first started and
+ultimately ended up in the PyGMI project.</p>
+<p>The origins of PyGMI started with two separate projects. The first was a joint
+project where the CGS was responsible for the creation of a software interface
+for cluster analysis code, developed by the University of Potsdam (Paasche et
+al 2009). The resulting project was done entirely in Python. Data could be
+imported, filtered, analyzed and displayed in graph form using Matplotlib.</p>
+<p>The second project stemmed from the need to perform 3D modelling on geophysical
+data. The creation of 3D models can be extremely time-consuming. Packages
+available tend to follow either the modelling of individual 2.5D profiles,
+which are then joined up into 3D sections, or modelling fully in
+three dimensions using polygonal based models. The initial idea was to use the
+VTK library as the means to create, display and interrogate the model, while
+using the Scipy and Numpy libraries to perform the actual potential field
+calculations. It soon became apparent that editing the resulting mesh quickly
+became complex and time consuming. The ability to easily create and change a
+model is the very basis of forward modelling and for this reason a new approach
+was adopted. The newer 3D modelling package was designed to allow the user to
+model simply by drawing the model, in the same way one would draw views of a
+house using a paint program. This implies the need to have a front view, as
+well as a top view. The model is therefore voxel based rather than polygonal.
+The final model can be displayed either within the PyGMI software, or exported
+to Google Earth for examination.</p>
+<p>Ultimately these two projects formed the basis of what is now the actual PyGMI
+package -- which is a modular collection of various techniques, including
+multivariate statistical analysis and potential field modelling. The interface
+follows a flow diagram approach and the individual modules are independent
+enough to ensure that they do not interfere with code which has preceded them
+in previous modules.</p>
+<p>The PyGMI software is available for free download at: [<a class="reference external" href="https://code.google.com/p/pygmi/](https://code.google.com/p/pygmi/">https://code.google.com/p/pygmi/](https://code.google.com/p/pygmi/</a>)</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2014</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://www.youtube.com/watch?v=5kM3tKkjoSw">http://www.youtube.com/watch?v=5kM3tKkjoSw</a></li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

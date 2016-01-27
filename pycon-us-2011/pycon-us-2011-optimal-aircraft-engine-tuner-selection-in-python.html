@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Optimal Aircraft Engine Tuner Selection in Python</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/pycon-us-2011.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="aircraftenginetuning" />
+    <meta name="tags" content="casestudy" />
+    <meta name="tags" content="pycon" />
+    <meta name="tags" content="pycon2011" />
+    <meta name="tags" content="scipy" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/pycon-us-2011/pycon-us-2011-optimal-aircraft-engine-tuner-selection-in-python.html" rel="bookmark"
+         title="Permalink to Optimal Aircraft Engine Tuner Selection in Python">Optimal Aircraft Engine Tuner Selection in Python</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-02-23T04:20:00+00:00">
+      Thu 23 February 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/jeffrey-armstrong.html">Jeffrey Armstrong</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4"><img alt="Optimal Aircraft Engine Tuner Selection in Python" src="http://a.images.blip.tv/Pycon-PyCon2011OptimalAircraftEngineTunerSelectionInPython133-714.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Optimal Aircraft Engine Tuner Selection in Python</p>
+<p>Presented by Jeffrey Armstrong</p>
+<p>A numerical algorithm for designing on-board aircraft engine diagnostics has
+been implemented in Python. Employing the optimization techniques within
+SciPy, the code performs a search for an optimal vector of parameters for
+estimating engine variables, including exhaust temperatures and thrust. The
+algorithm exploits the numerical strengths of Python and SciPy for speed and
+interoperability.</p>
+<p>Abstract</p>
+<p>An emerging field of aircraft engine diagnostics is the inclusion of on-board
+engine performance tracking algorithms. These algorithms utilize data provided
+by a limited number of engine sensors to determine the current engine
+performance, which tends to degrade over time. However, estimating engine
+performance instantaneously is problematic due to the limited number of
+sensors normally available on a commercial aircraft engine.</p>
+<p>One common practice is to estimate and track engine performance in software
+using a Kalman filter, a mathematical construct for tuning a numerical model
+to better track actual measurements (1). A new technique has been devised to
+optimize the design of this filter in aircraft engine applications (2). An
+optimization procedure to aid in the design of the filter has been implemented
+in Python and exercised against the significant number of minimization and
+optimization strategies available in SciPy. The talk focuses on the design of
+this optimization procedure in Python. The object-oriented nature of Python
+offers benefits over alternative numerical languages; speed, availability, and
+maintainability played central roles in the selection of Python as the
+implementation language. The availability of the multiprocessing module
+allowed for full utilization of modern multi-core CPUs, in contrast with often
+limited commercial numerical computing packages, further improving
+computational speed.</p>
+<p>Some difficulties were encountered during this design exercise. Discussion of
+these obstacles and their eventual solution is presented. Specifically,
+iterative solvers for the discrete algebraic Riccati equation and the discrete
+Lyapunov equation had to be authored in Python (3,4). Additional framework for
+working with discrete state-space control systems was created, exploiting the
+object-oriented features of the language (5).</p>
+<p>The Python implementation was able to verify the solution of the optimization
+problem. Comparison with an alternative, reference MATLAB implementation will
+be presented briefly. The results of this research is planned to be presented
+at the American Society for Mechanical Engineers Turbo Expo 2011 Conference in
+June, 2011 (6). The algorithm design in Python is meant to showcase the
+ability to perform controls engineering tasks in the Python language
+efficiently.</p>
+<p>1. “Kalman Filter,” Wikipedia: [<a class="reference external" href="http://en.wikipedia.org/wiki/Kalman_filter](ht">http://en.wikipedia.org/wiki/Kalman_filter](ht</a>
+tp://en.wikipedia.org/wiki/Kalman_filter)</p>
+<p>2. Simon, D. L. and Garg, S., “Optimal Tuner Selection for Kalman Filter-Based
+Aircraft Engine Performance Estimation”. Journal of Engineering for Gas
+Turbines and Power. March 2010, Vol. 132.</p>
+<p>3. “Algebraic Riccati Equation,” Wikipedia: [<a class="reference external" href="http://en.wikipedia.org/wiki/Alge">http://en.wikipedia.org/wiki/Alge</a>
+braic_Riccati_equation](<a class="reference external" href="http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio">http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio</a>
+n)</p>
+<p>4. “Lyapunov Equation,” Wikipedia: [<a class="reference external" href="http://en.wikipedia.org/wiki/Lyapunov_equa">http://en.wikipedia.org/wiki/Lyapunov_equa</a>
+tion](<a class="reference external" href="http://en.wikipedia.org/wiki/Lyapunov_equation">http://en.wikipedia.org/wiki/Lyapunov_equation</a>)</p>
+<p>5. “State Space,” Wikipedia: [<a class="reference external" href="http://en.wikipedia.org/wiki/State">http://en.wikipedia.org/wiki/State</a>-
+space](<a class="reference external" href="http://en.wikipedia.org/wiki/State-space">http://en.wikipedia.org/wiki/State-space</a>)</p>
+<p>6. Simon, D. L., Armstrong, J. B., &quot;Application of an Optimal Tuner Selection
+Approach for On-Board Self-Tuning Engine Models,&quot; Proceedings of the ASME
+Turbo Expo 2011, GT2011-46408, 2011 (To Be Published).</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: PyCon US 2011</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4">http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4</a></li>
+<li>Tags: aircraftenginetuning, casestudy, pycon, pycon2011, scipy</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

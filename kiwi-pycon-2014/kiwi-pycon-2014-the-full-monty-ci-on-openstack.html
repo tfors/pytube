@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; The Full Monty - CI on OpenStack</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/kiwi-pycon-2014.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="talk" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/kiwi-pycon-2014/kiwi-pycon-2014-the-full-monty-ci-on-openstack.html" rel="bookmark"
+         title="Permalink to The Full Monty - CI on OpenStack">The Full Monty - CI on OpenStack</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2014-10-14T22:37:00+00:00">
+      Tue 14 October 2014
+    </time>
+    <time class="modified" datetime="2014-10-16T00:06:00+00:00">
+      Thu 16 October 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/danny-adair.html">Danny Adair</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="http://youtu.be/265Sqo7cgbM"><img alt="The Full Monty - CI on OpenStack" src="http://i.ytimg.com/vi/265Sqo7cgbM/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Danny Adair:
+The Full Monty - CI on OpenStack
+=================================================================
+&#64; Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1
+<a class="reference external" href="http://kiwi.pycon.org/">http://kiwi.pycon.org/</a></p>
+<p><strong>Audience level</strong></p>
+<p>Intermediate</p>
+<p><strong>Description</strong></p>
+<p>Are you continuously &quot;integrating&quot;, or just running some unit tests inside a virtualenv?</p>
+<p>Let's go the Full Monty with OpenStack!</p>
+<p>Protagonists, in order of appearance: Gerrit, Jenkins, OpenStack, Puppet, Odoo (formerly OpenERP). Enjoy the ride!</p>
+<p><strong>Abstract</strong></p>
+<p>I'll show how we configured our CI tools to automatically build and destroy entire servers on OpenStack. We'll have Gerrit for code review, Jenkins for coordinating and monitoring the build process, OpenStack and its tools to build servers on their own subnet, Puppet for configuring said servers. The example project is an installation of Odoo (formely OpenERP) with a web server and PostgreSQL database.</p>
+<p>At Catalyst, my team works with Odoo (formerly known as OpenERP), a modular Open Source suite of business applications. It has a very large and complex codebase and &quot;Regression&quot; is its middle name. It is under very active development on github, and customisations are generally brought in via plugins that override or extend default functionality. Basically, reasonable work on this requires continuous integration, it's not a luxury.</p>
+<p>We could have a fat build server with multiple virtualenvs and multiple databases on the same PostgreSQL server, and just run some Python tests and be done with it. We could improve that with something like LXC, Vagrant etc. all happening on said build server. But why stop there - why not go all the way and create a more realistic setup? After all, another team is able to provide us with OpenStack. Let's go the Full Monty!</p>
+<p>Let's go hog wild and create and destroy entire servers just for the purpose of testing. Let's have separate application and database servers, just like in production.</p>
+<p>Let's also keep some servers alive for other purposes, e.g., user acceptance testing. Just sit in an IRC channel and after changes are committed for review, wait for a bot to post the URL of the newly built web server to click on. A nicely readable URL on a separate subdomain that is, of course!</p>
+<p>As a bonus, I'll show how active upstream development on github fits into all this, and how your Ubuntu &quot;Precise Pangolin&quot; server can easily rehearse an upgrade to &quot;Trusty Tahr&quot;.</p>
+<p><strong>Slides</strong></p>
+<p><a class="reference external" href="https://speakerdeck.com/nzpug/danny-adair-the-full-monty-ci-on-openstack">https://speakerdeck.com/nzpug/danny-adair-the-full-monty-ci-on-openstack</a></p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: Kiwi PyCon 2014</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="http://youtu.be/265Sqo7cgbM">http://youtu.be/265Sqo7cgbM</a></li>
+<li>Tags: talk</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

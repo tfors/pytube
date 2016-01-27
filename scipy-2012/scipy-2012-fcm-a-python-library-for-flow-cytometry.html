@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; Fcm - A python library for flow cytometry</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/scipy-2012.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="tags" content="Computational Bioinformatics" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/scipy-2012/scipy-2012-fcm-a-python-library-for-flow-cytometry.html" rel="bookmark"
+         title="Permalink to Fcm - A python library for flow cytometry">Fcm - A python library for flow cytometry</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-08-31T16:35:00+00:00">
+      Fri 31 August 2012
+    </time>
+    <time class="modified" datetime="2014-04-08T20:28:00+00:00">
+      Tue 08 April 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/jacob-frelinger.html">Jacob Frelinger</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="https://www.youtube.com/watch?v=SXdIiLPQLAo"><img alt="Fcm - A python library for flow cytometry" src="http://i4.ytimg.com/vi/SXdIiLPQLAo/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Cellular populations in biology are often heterogeneous, and aggregate assays
+such as expression arrays can obscure the small differences between these
+populations. Examples where these differences can be highly significant
+include the identification of antigen-specific immune cells, stem cells and
+circulating cancer cells. As the frequency of such cells in the blood can be
+vanishingly small, assays to detect signals at the single cell level are
+essential. Flow cytometry is probably the best established single cell assay,
+and has been an integral tool in immunology and biology for decades, able to
+measure cellular marker levels for individual cells, as well as population
+statistics over millions of cells.</p>
+<p>Recent technological innovations in flow cytometry have increased the number
+of cell markers capable of being resolved simultaneously, and visual analysis
+(gating) is difficult and error prone with increasing data dimensionality.
+Hence there is increasing demand for tools to automate the analysis and
+management of flow data, so as to increase accuracy and reproducibility.
+However, essentially all software used by flow cytometry laboratories is
+commercial and based on the visual analysis paradigm. With the exception of
+the R BioConductor project, we are not aware of any other full-featured open
+source tools for analyzing flow data. The few open source flow software
+modules that exist simply extracts data from FCS (flow cytometry standard)
+files into tabular/csv format, losing all metadata associated with the file,
+and provide no additional tools for analysis. We therefore decided to develop
+the _fcm_ library in python that would provide a foundation for flow cytometry
+data management and analysis.</p>
+<p>The _fcm_ library provides functions to load fcs files, apply spectral
+compensation, and perform standard log and log-like transforms for
+visualization. The library also provides objects and methods for traditional
+gating-based analysis, including standard polygon, threshold, interval, and
+quadrant gates. Using _fcm_ and other common python libraries, one can quickly
+write scripts for doing large scale batch analysis. In addition to gating-
+based analysis, _fcm_ provides methods to do model-based analysis, utilizing
+GPU-optimized statistical models to identify cell subsets. These statistical
+models provide a data-driven way to construct generative probability models
+that scale well with the increasing dimensionality of flow data and do not
+require expert input to identify cell subsets. High performance computational
+routines to fit statistical models are optimized using cython and pycuda. More
+specialized tools for the analysis of flow data include the use of a novel
+information measure to optimize reagent panels and analysis strategies, and
+optimization methods for automatic determination of positivity thresholds.</p>
+<p>We are currently using the _fcm_ library for the analysis of tetramer assays
+for cancer immunotherapy, as well as intracellular expression of effector
+molecules in the NIAID-sponsored External Quality Assurance Policy Oversight
+Laboratory (EQAPOL) program to standardize flow cytometry assays in HIV
+studies. An illustrative example is the use of _fcm_ in building a pipeline
+for the Cytostream application to automate the analysis of 459 FCS files from
+12 laboratories, reducing the analysis time of one month to a single evening.</p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: SciPy 2012</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="https://www.youtube.com/watch?v=SXdIiLPQLAo">https://www.youtube.com/watch?v=SXdIiLPQLAo</a></li>
+<li>Tags: Computational Bioinformatics</li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

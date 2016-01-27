@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pytube &middot; The failure of python object serialization: why HPC in python is broken, and how to fix it</title>
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Full Atom Feed" />
+    <link href="/feeds/euroscipy-2014.atom.xml" type="application/atom+xml" rel="alternate" title="pytube Categories Atom Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet" 
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header id="banner" class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+            <a href="/categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">
+        <a href="/">pytube <strong></strong></a>
+      </h3>
+    </header>
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/euroscipy-2014/euroscipy-2014-the-failure-of-python-object-serialization-why-hpc-in-python-is-broken-and-how-to-fix-it.html" rel="bookmark"
+         title="Permalink to The failure of python object serialization: why HPC in python is broken, and how to fix it">The failure of python object serialization: why HPC in python is broken, and how to fix it</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2014-11-05T22:41:00+00:00">
+      Wed 05 November 2014
+    </time>
+    <time class="modified" datetime="2014-11-05T22:41:00+00:00">
+      Wed 05 November 2014
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/michael-mckerns.html">Michael McKerns</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <a class="reference external image-reference" href="https://www.youtube.com/watch?v=QvJmryCRfeY"><img alt="The failure of python object serialization: why HPC in python is broken, and how to fix it" src="https://i.ytimg.com/vi/QvJmryCRfeY/hqdefault.jpg" style="width: 600px;" /></a>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>Parallel and asynchronous computing in python is crippled by pickle's poor
+object serialization. However, a more robust serialization package would
+drastically improve the situation. To leverage the cores found in modern
+processors we need to communicate functions between different processes --
+and that means callables must be serialized without pickle barfing.
+Similarly, parallel and distributed computing with MPI, GPUs, sockets, and
+across other process boundaries all need serialized functions (or other
+callables). So why is pickling in python so broken? Python's ability to
+leverage these awesome communication technologies is limited by python's own
+inability to be a fully serializable language. In actuality, serialization
+in python is quite limited, and for really no good reason.</p>
+<p>Many raise security concerns for full object serialization, however it can
+be argued that it is not pickle's responsibility to do proper
+authentication. In fact, one could apply rather insecure serialization of
+all objects the objects were all sent across RSA-encrypted ssh-tunnels, for
+example.</p>
+<p>Dill is a serialization package that strives to serialize all of python. We
+have forked python's multiprocessing to use dill. Dill can also be leveraged
+by mpi4py, ipython, and other parallel or distributed python packages. Dill
+serves as the backbone for a distributed parallel computing framework that
+is being used to design the next generation of large-scale heterogeneous
+computing platforms, and has been leveraged in large-scale calculations of
+risk and uncertainty. Dill has been used to enable state persistence and
+recovery, global caching, and the coordination of distributed parallel
+calculations across a network of the world's largest computers.</p>
+<p><a class="reference external" href="http://pythonhosted.org/dill">http://pythonhosted.org/dill</a></p>
+<p><a class="reference external" href="https://github.com/uqfoundation">https://github.com/uqfoundation</a></p>
+<p><a class="reference external" href="http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/">http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/</a></p>
+<p><a class="reference external" href="http://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1">http://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1</a></p>
+<p><a class="reference external" href="https://groups.google.com/forum/#!topic/mpi4py/1fd4FwdgpWY">https://groups.google.com/forum/#!topic/mpi4py/1fd4FwdgpWY</a></p>
+<p><a class="reference external" href="http://nbviewer.ipython.org/gist/anonymous/5241793">http://nbviewer.ipython.org/gist/anonymous/5241793</a></p>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<ul class="simple">
+<li>Category: EuroScipy 2014</li>
+<li>Language: English</li>
+<li>Direct Link: <a class="reference external" href="https://www.youtube.com/watch?v=QvJmryCRfeY">https://www.youtube.com/watch?v=QvJmryCRfeY</a></li>
+</ul>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+
+    <footer class="footer">
+      <p>&copy; 2016 pytube</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
